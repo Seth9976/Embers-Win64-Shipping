@@ -1,0 +1,12 @@
+// 函数: sub_1417e6d50
+// 地址: 0x1417e6d50
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+void*** rbx = *arg1
+
+if (rbx == 0)
+    return 
+
+sub_1417d6a50(rbx)
+*rbx = &data_142fd7ce8
+__builtin_memset(&rbx[0x21], 0, 0x18)

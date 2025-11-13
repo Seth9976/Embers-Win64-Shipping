@@ -1,0 +1,16 @@
+// 函数: sub_14254a550
+// 地址: 0x14254a550
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+sub_141db75d0(arg2)
+arg2[0xc] = 0xc1c80000
+arg2[0xe] = 0
+arg2[0xd] = 0xc2480000
+arg2[0xf] = 0x41c80000
+arg2[0x10] = 0xc2480000
+arg2[0x11] = 0
+arg2[0x12] = 0xc1c80000
+*(arg2 + 0x4c) = 0x42480000
+arg2[0x15] = 0x41c80000
+*(arg2 + 0x58) = 0x42480000
+return 0

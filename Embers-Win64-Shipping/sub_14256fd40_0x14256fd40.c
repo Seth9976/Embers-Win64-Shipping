@@ -1,0 +1,119 @@
+// 函数: sub_14256fd40
+// 地址: 0x14256fd40
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t var_68 = 0
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_1 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_1[4]
+    sub_140d30490(arg2, &var_68, r8_1)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &var_68)
+
+int32_t var_6c = 0
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_3 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_3[4]
+    sub_140d30490(arg2, &var_6c, r8_3)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &var_6c)
+
+int32_t var_70 = 0
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_5 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_5[4]
+    sub_140d30490(arg2, &var_70, r8_5)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &var_70)
+
+int32_t var_74 = 0
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_7 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_7[4]
+    sub_140d30490(arg2, &var_74, r8_7)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &var_74)
+
+int32_t var_78 = 0
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_9 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_9[4]
+    sub_140d30490(arg2, &var_78, r8_9)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &var_78)
+
+int32_t arg_10 = 0
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_11 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_11[4]
+    sub_140d30490(arg2, &arg_10, r8_11)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &arg_10)
+
+bool cond:0 = arg_10 != 0
+int32_t arg_18 = 0
+int64_t r14
+r14.b = cond:0
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_13 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_13[4]
+    sub_140d30490(arg2, &arg_18, r8_13)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &arg_18)
+
+bool cond:1 = arg_18 != 0
+int32_t arg_20 = 0
+int64_t rsi
+rsi.b = cond:1
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_15 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_15[4]
+    sub_140d30490(arg2, &arg_20, r8_15)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &arg_20)
+
+char arg_8 = 0
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_17 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_17[4]
+    sub_140d30490(arg2, &arg_8, r8_17)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &arg_8)
+
+int64_t var_60
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_19 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_19[4]
+    sub_140d30490(arg2, &var_60, r8_19)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &var_60)
+
+int64_t rax_11 = *(arg2 + 0x20)
+int32_t zmm1 = var_74
+int512_t zmm3
+zmm3.o = var_70
+int64_t rdi
+rdi.b = rax_11 != 0
+int64_t rdx_20 = var_68
+int64_t var_48 = var_60
+int32_t var_58
+int32_t var_40 = var_58
+uint32_t rax_13 = zx.d(arg_8)
+int32_t var_98 = arg_20.d
+int64_t zmm0 = var_78
+*(arg2 + 0x20) = rdi + rax_11
+int64_t r8_20 = *arg1
+int64_t result = (*(r8_20 + 0x7d0))(arg1, rdx_20, r8_20, zmm3, zmm1, zmm0.d, r14.b, rsi.b, var_98, 
+    rax_13, &var_48)
+*arg3 = result
+return result

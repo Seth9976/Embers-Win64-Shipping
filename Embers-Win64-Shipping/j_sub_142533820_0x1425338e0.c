@@ -1,0 +1,5 @@
+// 函数: j_sub_142533820
+// 地址: 0x1425338e0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return sub_142533820() __tailcall

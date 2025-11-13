@@ -1,0 +1,57 @@
+// 函数: sub_14252b0f0
+// 地址: 0x14252b0f0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+void var_88
+int64_t rax_1 = __security_cookie ^ &var_88
+uint32_t zmm3[0x4] = data_143f67df0
+int128_t var_38 = zx.o(0)
+uint32_t temp0[0x4] = __andps_xmmxud_memxud(zmm3, data_143f67e00)
+zmm3[0].q = zx.o(0) u>> 0x40
+float var_48[0x4] = _mm_shuffle_ps(zx.o(0), zmm3, 0xc4)
+uint32_t var_28[0x4] = temp0
+*(arg2 + 0x38) = 0
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_1 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_1[4]
+    sub_140d30490(arg2, &var_48, r8_1)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &var_48)
+
+float (* rax_3)[0x4] = *(arg2 + 0x38)
+float (* rdx_2)[0x4] = &var_48
+
+if (rax_3 != 0)
+    rdx_2 = rax_3
+
+int64_t rax_4 = *(arg2 + 0x20)
+int64_t rdi
+rdi.b = rax_4 != 0
+*(arg2 + 0x20) = rdi + rax_4
+void var_68
+int64_t* rax_5 = sub_1420b8920(&var_68, rdx_2)
+int64_t rdx_3 = *arg3
+*arg3 = *rax_5
+*rax_5 = rdx_3
+int64_t rdx_4 = arg3[1]
+arg3[1] = rax_5[1]
+rax_5[1] = rdx_4
+int32_t result = rax_5[2].d
+arg3[2].d = result
+int64_t* var_60
+
+if (var_60 != 0)
+    result = var_60[1].d
+    var_60[1].d -= 1
+    
+    if (result == 1)
+        result = (**var_60)(var_60)
+        int32_t rdi_2 = *(var_60 + 0xc)
+        *(var_60 + 0xc) -= 1
+        
+        if (rdi_2 == 1)
+            result = (*(*var_60 + 8))(var_60, zx.q(rdi_2))
+
+__security_check_cookie(rax_1 ^ &var_88)
+return result

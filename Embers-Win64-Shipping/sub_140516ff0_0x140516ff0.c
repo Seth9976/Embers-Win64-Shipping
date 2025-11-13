@@ -1,0 +1,5 @@
+// 函数: sub_140516ff0
+// 地址: 0x140516ff0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return sub_140b58260(&data_143f3c888, u"GradientTexture", 1) __tailcall

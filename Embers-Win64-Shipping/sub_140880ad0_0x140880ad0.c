@@ -1,0 +1,12 @@
+// 函数: sub_140880ad0
+// 地址: 0x140880ad0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143ce5888
+
+if (result == 0)
+    int32_t var_18_1 = 0x74a336a3
+    result = sub_140d225c0(sub_14087dfb0, sub_14086a750(), u"NiagaraVariableBase")
+    data_143ce5888 = result
+
+return result

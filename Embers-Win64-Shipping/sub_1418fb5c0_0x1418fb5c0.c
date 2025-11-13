@@ -1,0 +1,25 @@
+// 函数: sub_1418fb5c0
+// 地址: 0x1418fb5c0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+if (data_143f0f161 == 0)
+    int512_t result
+    result.o = zx.o(0)
+    return result
+
+int64_t rax = sub_1418fb620(arg1 + 0x70, 1)
+double zmm2 = 1.8446744073709552e+19
+double zmm0[0x2] = zx.o(0)
+zmm0[0] = float.d(rax)
+
+if (rax s< 0)
+    zmm0[0] = zmm0[0] + zmm2
+
+int64_t rax_1 = data_143f0f168
+int64_t zmm1 = float.d(rax_1)
+
+if (rax_1 s< 0)
+    zmm1 = zmm1 f+ zmm2
+
+zmm0[0] = zmm0[0] f/ zmm1
+return _mm_cvtpd_ps(zmm0)

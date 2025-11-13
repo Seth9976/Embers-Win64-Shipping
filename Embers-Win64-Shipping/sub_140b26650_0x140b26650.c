@@ -1,0 +1,22 @@
+// 函数: sub_140b26650
+// 地址: 0x140b26650
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t rcx = *(arg1 + 0x2000)
+
+if (arg3 u> 0x1000)
+    if (rcx == 0)
+        if (arg3 != 0)
+            int64_t rax_1 = sub_140a84c80(rcx, sx.q(arg3) * arg4, 0)
+            *(arg1 + 0x2000) = rax_1
+            rcx = rax_1
+        
+        return memmove(rcx, arg1, arg2 * 2) __tailcall
+    
+    *(arg1 + 0x2000) = sub_140a84c80(rcx, sx.q(arg3) * arg4, 0)
+else if (rcx != 0)
+    memmove(arg1, rcx, arg2 * 2)
+    rcx = *(arg1 + 0x2000)
+    
+    if (rcx != 0)
+        *(arg1 + 0x2000) = sub_140a84c80(rcx, 0, 0)

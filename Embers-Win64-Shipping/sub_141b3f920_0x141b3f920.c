@@ -1,0 +1,12 @@
+// 函数: sub_141b3f920
+// 地址: 0x141b3f920
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143f2cdb8
+
+if (result == 0)
+    int32_t var_18_1 = 0x65195c70
+    result = sub_140d225c0(sub_141b40490, sub_141b41d50(), u"MovieSceneEventRepeaterTemplate")
+    data_143f2cdb8 = result
+
+return result

@@ -1,0 +1,61 @@
+// 函数: sub_141905e10
+// 地址: 0x141905e10
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*(arg1 + 0x20) &= 0xfffffff0
+*(arg1 + 4) = 0
+*(arg1 + 0xc) = 0
+arg1[0x10] = 0
+*(arg1 + 0x14) = 0
+*(arg1 + 0x1c) = 0
+*arg1 = 0
+arg1[0x24] = 0
+*(arg1 + 0x28) = 0
+*(arg1 + 0x30) = 0
+arg1[0x34] = 0
+*(arg1 + 0x38) = 0
+*(arg1 + 0x40) = 0
+*(arg1 + 0x44) &= 0xfffffff0
+arg1[0x48] = 0
+*(arg1 + 0x4c) = 0
+*(arg1 + 0x54) = 0
+arg1[0x58] = 0
+*(arg1 + 0x5c) = 0
+*(arg1 + 0x64) = 0
+*(arg1 + 0x68) &= 0xfffffff0
+arg1[0x6c] = 0
+*(arg1 + 0x70) = 0
+*(arg1 + 0x78) = 0
+arg1[0x7c] = 0
+*(arg1 + 0x80) = 0
+*(arg1 + 0x88) = 0
+*(arg1 + 0x8c) &= 0xfffffff0
+arg1[0x90] = 0
+*(arg1 + 0x94) = 0
+*(arg1 + 0x9c) = 0
+arg1[0xa0] = 0
+*(arg1 + 0xa4) = 0
+*(arg1 + 0xac) = 0
+*(arg1 + 0xb0) &= 0xfffffff0
+arg1[0xb4] = 0
+*(arg1 + 0xb8) = 0
+*(arg1 + 0xc0) = 0
+arg1[0xc4] = 0
+*(arg1 + 0xc8) = 0
+*(arg1 + 0xd0) = 0
+*(arg1 + 0xd4) &= 0xfffffff0
+arg1[0xd8] = 0
+*(arg1 + 0xdc) = 0
+*(arg1 + 0xe4) = 0
+arg1[0xe8] = 0
+*(arg1 + 0xec) = 0
+*(arg1 + 0xf4) = 0
+*(arg1 + 0xf8) &= 0xfffffff0
+arg1[0xfc] = 0
+*(arg1 + 0x100) = 0
+*(arg1 + 0x108) = 0
+arg1[0x10c] = 0
+*(arg1 + 0x110) = 0
+*(arg1 + 0x118) = 0
+*(arg1 + 0x11c) &= 0xfffffff0
+return arg1

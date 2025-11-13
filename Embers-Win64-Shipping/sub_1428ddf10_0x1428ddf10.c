@@ -1,0 +1,32 @@
+// 函数: sub_1428ddf10
+// 地址: 0x1428ddf10
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+__chkstk(0x28)
+sub_14289b880(&data_1435225f0)
+sub_14289b880(&data_143505b10)
+sub_1428afa00("ssl3-md5", 0x8001, &data_1434d9ee0)
+sub_14289b880(&data_143505b60)
+sub_14289b880(&data_1434e9110)
+sub_1428afa00("ssl3-sha1", 0x8001, "SHA1")
+sub_1428afa00("RSA-SHA1-2", 0x8001, "RSA-SHA1")
+sub_14289b880(&data_1435228c0)
+sub_14289b880(&data_143522910)
+sub_1428afa00("ripemd", 0x8001, "RIPEMD160")
+sub_1428afa00("rmd160", 0x8001, "RIPEMD160")
+sub_14289b880(&data_1434e9160)
+sub_14289b880(&data_1434e91b0)
+sub_14289b880(&data_1434e92a0)
+sub_14289b880(&data_1434e92f0)
+sub_14289b880(&data_1434e9200)
+sub_14289b880(&data_1434e9250)
+sub_14289b880(&data_143522960)
+sub_14289b880(&data_1435229b0)
+sub_14289b880(&data_143522640)
+sub_14289b880(&data_143522690)
+sub_14289b880(&data_1435226e0)
+sub_14289b880(&data_143522730)
+sub_14289b880(&data_143522780)
+sub_14289b880(&data_1435227d0)
+sub_14289b880(&data_143522820)
+return sub_14289b880(&data_143522870) __tailcall

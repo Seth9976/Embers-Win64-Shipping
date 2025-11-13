@@ -1,0 +1,60 @@
+// 函数: sub_1403adb00
+// 地址: 0x1403adb00
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t zmm0[0x4] = *arg1
+uint32_t temp0[0x4] = _mm_shuffle_epi32(arg1[1], 0x4e)
+int32_t zmm3[0x4] = zmm0
+zmm0 = _mm_add_epi16(zmm0, temp0)
+int32_t temp0_2[0x4] = _mm_sub_epi16(zmm3, temp0)
+int32_t temp0_3[0x4] = _mm_unpacklo_epi64(zmm0, temp0_2[0].q)
+int32_t temp0_4[0x4] = _mm_unpackhi_epi64(zmm0, temp0_2[0].q)
+int32_t zmm4[0x4] = _mm_add_epi16(temp0_4, temp0_3)
+int32_t temp0_6[0x4] = _mm_sub_epi16(temp0_3, temp0_4)
+int32_t temp0_7[0x4] = _mm_unpacklo_epi16(zmm4, temp0_6[0].q)
+int32_t temp0_8[0x4] = _mm_unpackhi_epi16(zmm4, temp0_6[0].q)
+int32_t temp0_9[0x4] = _mm_unpacklo_epi16(temp0_7, temp0_8[0].q)
+uint32_t temp0_11[0x4] = _mm_shuffle_epi32(_mm_unpackhi_epi16(temp0_7, temp0_8[0].q), 0x4e)
+zmm0 = _mm_shuffle_epi32(0x30003, 0)
+zmm4 = _mm_add_epi16(temp0_9, temp0_11)
+int32_t temp0_14[0x4] = _mm_sub_epi16(temp0_9, temp0_11)
+int32_t temp0_15[0x4] = _mm_unpacklo_epi64(zmm4, temp0_14[0].q)
+int16_t zmm5[0x8] = _mm_unpackhi_epi64(zmm4, temp0_14[0].q)
+int16_t temp0_17[0x8] = _mm_add_epi16(zmm5, temp0_15)
+int32_t temp0_18[0x4] = _mm_sub_epi16(temp0_15, zmm5)
+int16_t temp0_19[0x8] = _mm_add_epi16(temp0_17, zmm0)
+zmm4 = _mm_add_epi16(temp0_18, zmm0)
+int16_t temp0_21[0x8] = _mm_srai_epi16(temp0_19, 3)
+zmm4 = _mm_srai_epi16(zmm4, 3)
+int32_t rax = temp0_21[0].d
+int32_t rcx_1 = zmm4[0]
+zmm5 = _mm_bsrli_si128(temp0_21, 4)
+zmm4 = _mm_bsrli_si128(zmm4, 4)
+*arg2 = rax.w
+arg2[0x20] = rcx_1.w
+arg2[0x40] = (rax u>> 0x10).w
+arg2[0x60] = (rcx_1 u>> 0x10).w
+int32_t rax_2 = zmm5[0].d
+int32_t rcx_3 = zmm4[0]
+zmm5 = _mm_bsrli_si128(zmm5, 4)
+zmm4 = _mm_bsrli_si128(zmm4, 4)
+arg2[0x80] = rax_2.w
+arg2[0xa0] = rcx_3.w
+arg2[0xc0] = (rax_2 u>> 0x10).w
+arg2[0xe0] = (rcx_3 u>> 0x10).w
+int32_t rax_4 = zmm5[0].d
+int32_t rcx_5 = zmm4[0]
+zmm5 = _mm_bsrli_si128(zmm5, 4)
+zmm4 = _mm_bsrli_si128(zmm4, 4)
+arg2[0x10] = rax_4.w
+arg2[0x30] = rcx_5.w
+arg2[0x50] = (rax_4 u>> 0x10).w
+arg2[0x70] = (rcx_5 u>> 0x10).w
+int32_t rax_6 = zmm5[0].d
+int32_t rcx_7 = zmm4[0]
+arg2[0x90] = rax_6.w
+arg2[0xb0] = rcx_7.w
+uint16_t result = (rax_6 u>> 0x10).w
+arg2[0xd0] = result
+arg2[0xf0] = (rcx_7 u>> 0x10).w
+return result

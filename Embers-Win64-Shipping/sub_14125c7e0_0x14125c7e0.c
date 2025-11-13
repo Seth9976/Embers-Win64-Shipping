@@ -1,0 +1,32 @@
+// 函数: sub_14125c7e0
+// 地址: 0x14125c7e0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*(arg1 + 0xc) = 0x3f800000
+*arg1 = 0
+arg1[1].d = 0
+*(arg1 + 0x14) = 0
+*(arg1 + 0x1c) = 0x3f800000
+*(arg1 + 0x24) = 0
+*(arg1 + 0x2c) = 0x3f800000
+*(arg1 + 0x34) = 0
+*(arg1 + 0x3c) = 0x3f800000
+*(arg1 + 0x44) = 0
+__builtin_memset(&arg1[0x10], 0, 0x2c)
+*(arg1 + 0x4c) = 0x3f800000
+*(arg1 + 0x54) = 0
+__builtin_memset(&arg1[0x3c], 0, 0x80)
+*(arg1 + 0x5c) = 0x3f800000
+*(arg1 + 0xac) = 0x3f800000
+*(arg1 + 0xb4) = 0
+*(arg1 + 0xbc) = 0x3f800000
+*(arg1 + 0xc4) = 0
+*(arg1 + 0xcc) = 0x3f800000
+*(arg1 + 0xd4) = 0
+*(arg1 + 0xdc) = 0x3f800000
+arg1[0x36] = 0
+arg1[0x37].d = 0
+*(arg1 + 0x1bc) = 0x3f800000
+*(arg1 + 0x1c4) = 0
+*(arg1 + 0x1cc) = 0x3f800000
+return arg1

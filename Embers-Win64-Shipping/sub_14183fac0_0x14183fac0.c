@@ -1,0 +1,18 @@
+// 函数: sub_14183fac0
+// 地址: 0x14183fac0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+EnterCriticalSection(arg1 + 0x80)
+int128_t zmm6
+
+if (*(zx.q(*(arg1 + 0x70)) + &data_142fe3128) == 0)
+    zmm6 = 0xbf800000
+else
+    zmm6 = *(arg1 + 0x74)
+
+if (arg1 != -0x80)
+    LeaveCriticalSection(arg1 + 0x80)
+
+int512_t result
+result.o = zmm6
+return result

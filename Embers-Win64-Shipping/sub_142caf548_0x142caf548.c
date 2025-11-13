@@ -1,0 +1,5 @@
+// 函数: sub_142caf548
+// 地址: 0x142caf548
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return sub_142b74110(arg2 + 0xf0) __tailcall

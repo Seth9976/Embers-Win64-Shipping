@@ -1,0 +1,12 @@
+// 函数: sub_1424990f0
+// 地址: 0x1424990f0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143f62b18
+
+if (result == 0)
+    int32_t var_18_1 = 0x7b909ad8
+    result = sub_140d225c0(sub_1424997e0, sub_1424a5650(), u"DataTableCategoryHandle")
+    data_143f62b18 = result
+
+return result

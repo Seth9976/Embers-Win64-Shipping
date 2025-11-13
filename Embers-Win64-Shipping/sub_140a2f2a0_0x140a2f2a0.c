@@ -1,0 +1,48 @@
+// 函数: sub_140a2f2a0
+// 地址: 0x140a2f2a0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t rax = sub_140a2d7c0(&data_143cf0ae0)
+uint64_t r14 = zx.q(rax)
+void* rax_1
+
+if (rax != 0)
+    rax_1 = *((r14 u>> 0xe << 3) + &data_143cf0bf8) + (zx.q(r14.d) & 0x3fff) * 0x18
+else
+    rax_1 = nullptr
+
+int128_t zmm6 = 0x3a83126f
+*(rax_1 + 8) = arg2
+int64_t result
+bool z_1
+
+do
+    int64_t result_1 = 0
+    
+    if (0 == *(arg1 + 8))
+        *(arg1 + 8) = 0
+    else
+        result_1 = *(arg1 + 8)
+    
+    if ((((result_1 & 0xfffffffffc000000) + 0x40000000) & 0xfffffffffc000000)
+            u< (result_1 & 0xfffffffffc000000))
+        zmm6 = sub_140b73230(zmm6)
+    
+    void* rcx_3
+    
+    if (r14.d != 0)
+        rcx_3 = *((r14 u>> 0xe << 3) + &data_143cf0bf8) + (zx.q(r14.d) & 0x3fff) * 0x18
+    else
+        rcx_3 = nullptr
+    
+    *(rcx_3 + 0x10) = result_1.d & 0x3ffffff
+    result = result_1
+    
+    if (result == *(arg1 + 8))
+        *(arg1 + 8) = ((result_1 & 0xfffffffffc000000) + 0x40000000) | r14
+        z_1 = true
+    else
+        result = *(arg1 + 8)
+        z_1 = false
+while (not(z_1))
+return result

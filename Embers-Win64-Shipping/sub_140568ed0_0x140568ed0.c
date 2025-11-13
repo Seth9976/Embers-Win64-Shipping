@@ -1,0 +1,5 @@
+// 函数: sub_140568ed0
+// 地址: 0x140568ed0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return sub_140d30e80(sub_14259caf0, j_sub_14259c320, USoundBase", /Script/Engine", 0, nullptr, 0)

@@ -1,0 +1,97 @@
+// 函数: sub_1421d5800
+// 地址: 0x1421d5800
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t temp0
+int32_t temp1
+temp0:temp1 = sx.q(arg2 - 2)
+uint64_t result = zx.q((temp1 - temp0) s>> 1)
+int32_t rbx = result.d
+int64_t zmm1
+
+if (result.d s>= 0)
+    int32_t rdi_1 = ((result << 1) + 1).d
+    int32_t temp2_1
+    
+    do
+        int32_t r9_1 = rbx
+        
+        if (rdi_1 s< arg2)
+            do
+                int32_t r10_1 = r9_1 * 2
+                uint64_t rdx_1 = zx.q(r10_1 + 1)
+                
+                if ((rdx_1 + 1).d s< arg2)
+                    if (*(&arg1[sx.q(rdx_1.d)] + 4) u< *(&arg1[sx.q(r10_1)] + 0x14))
+                        rdx_1 = zx.q(r10_1)
+                    
+                    rdx_1 = zx.q(rdx_1.d + 1)
+                
+                int64_t* rcx_1 = &arg1[sx.q(rdx_1.d)]
+                int64_t rax_7 = sx.q(r9_1)
+                int64_t* r9_2 = &arg1[rax_7]
+                result = zx.q(*(&arg1[rax_7] + 4))
+                
+                if (*(rcx_1 + 4) u>= result.d)
+                    break
+                
+                if (r9_2 != rcx_1)
+                    zmm1 = *r9_2
+                    *r9_2 = *rcx_1
+                    *rcx_1 = zmm1
+                
+                result = zx.q(((rdx_1 << 1) + 1).d)
+                r9_1 = rdx_1.d
+            while (result.d s< arg2)
+        
+        rdi_1 -= 2
+        temp2_1 = rbx
+        rbx -= 1
+    while (temp2_1 - 1 s>= 0)
+
+int32_t i = arg2 - 1
+
+if (i s> 0)
+    result = sx.q(i)
+    int64_t* rbx_1 = &arg1[result]
+    
+    do
+        if (arg1 != rbx_1)
+            zmm1 = *arg1
+            *arg1 = *rbx_1
+            *rbx_1 = zmm1
+        
+        int32_t r9_3 = 0
+        
+        if (i s> 1)
+            do
+                int32_t result_1 = r9_3 * 2
+                result = zx.q(result_1 + 1)
+                
+                if ((result + 1).d s< i)
+                    if (*(&arg1[sx.q(result.d)] + 4) u< *(&arg1[sx.q(result_1)] + 0x14))
+                        result = zx.q(result_1)
+                    
+                    result = zx.q(result.d + 1)
+                
+                void* rdx_3 = &arg1[sx.q(result.d)]
+                int64_t rcx_6 = sx.q(r9_3)
+                void* r9_4 = &arg1[rcx_6]
+                
+                if (*(rdx_3 + 4) u>= *(&arg1[rcx_6] + 4))
+                    break
+                
+                if (r9_4 != rdx_3)
+                    zmm1 = *r9_4
+                    *r9_4 = *rdx_3
+                    *rdx_3 = zmm1
+                
+                r9_3 = result.d
+                result = zx.q(((result << 1) + 1).d)
+            while (result.d s< i)
+        
+        i -= 1
+        rbx_1 -= 8
+    while (i s> 0)
+
+return result

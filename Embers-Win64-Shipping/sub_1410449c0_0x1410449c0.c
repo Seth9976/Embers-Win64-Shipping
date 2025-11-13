@@ -1,0 +1,21 @@
+// 函数: sub_1410449c0
+// 地址: 0x1410449c0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t rdi = data_143f029c8
+sub_140b34200("FlushRHIThreadTotal", rdi)
+
+if (*(arg3 + 0x14) u> 0)
+    j_sub_14196ef60(&data_143f02b88, arg3, arg5, arg6)
+
+sub_14198b230()
+
+if (data_143f01c92 != 0)
+    sub_14198b3f0()
+
+int64_t rdx_2
+rdx_2.b = 1
+sub_14198b7d0()
+sub_140b38680("FlushRHIThreadTotal", rdi)
+sub_1410447f0(arg1, arg2, arg4, arg7, arg8)
+return arg2

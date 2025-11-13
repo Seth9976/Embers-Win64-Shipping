@@ -1,0 +1,15 @@
+// 函数: sub_142aae080
+// 地址: 0x142aae080
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*arg1 = &icu_64::RuleBasedNumberFormat::`vftable'{for `icu_64::NumberFormat'}
+sub_142aae3b0(arg1)
+sub_142a47ff0(&arg1[0x55])
+sub_142a45a20(&arg1[0x32])
+sub_142a57fc0(arg1)
+
+if ((arg2 & 1) == 0 || (arg2 & 4) != 0)
+    return arg1
+
+sub_142a47920(arg1)
+return arg1

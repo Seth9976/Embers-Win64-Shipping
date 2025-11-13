@@ -1,0 +1,67 @@
+// 函数: sub_140daac60
+// 地址: 0x140daac60
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+uint32_t rdx_1 = (*arg1 u>> 4).d
+int32_t r8_1 = (0x9e3779b9 - rdx_1) ^ rdx_1 << 8
+int32_t rbp_2 = neg.d(r8_1 + rdx_1) ^ r8_1 u>> 0xd
+int32_t rdx_4 = (rdx_1 - r8_1 - rbp_2) ^ rbp_2 u>> 0xc
+int32_t r8_4 = (r8_1 - rdx_4 - rbp_2) ^ rdx_4 << 0x10
+int32_t rbp_5 = (rbp_2 - r8_4 - rdx_4) ^ r8_4 u>> 5
+int32_t rdx_7 = (rdx_4 - r8_4 - rbp_5) ^ rbp_5 u>> 3
+int32_t r8_7 = (r8_4 - rdx_7 - rbp_5) ^ rdx_7 << 0xa
+int32_t rbp_8 = (rbp_5 - r8_7 - rdx_7) ^ r8_7 u>> 0xf
+int32_t rdi_2 = rbp_8 u>> 0xd ^ neg.d(rbp_8)
+int32_t rbx_2 = (0x9e3779b9 - rdi_2 - rbp_8) ^ rdi_2 << 8
+int32_t rbp_11 = (rbp_8 - rbx_2 - rdi_2) ^ rbx_2 u>> 0xd
+int32_t rdi_5 = (rdi_2 - rbx_2 - rbp_11) ^ rbp_11 u>> 0xc
+int32_t rbx_5 = (rbx_2 - rdi_5 - rbp_11) ^ rdi_5 << 0x10
+int32_t rbp_14 = (rbp_11 - rbx_5 - rdi_5) ^ rbx_5 u>> 5
+int32_t rdi_8 = (rdi_5 - rbx_5 - rbp_14) ^ rbp_14 u>> 3
+int32_t rbx_8 = (rbx_5 - rdi_8 - rbp_14) ^ rdi_8 << 0xa
+int32_t rax_30 = sub_140daa8e0(&arg1[2])
+int32_t rbp_19 = (((rbp_14 - rbx_8 - rdi_8) ^ rbx_8 u>> 0xf) - rax_30) ^ rax_30 u>> 0xd
+uint32_t rcx_4 = (arg1[6] u>> 4).d
+int32_t r8_11 = (0x9e3779b9 - rbp_19 - rax_30) ^ rbp_19 << 8
+int32_t rsi_3 = (rax_30 - r8_11 - rbp_19) ^ r8_11 u>> 0xd
+int32_t rbp_22 = (rbp_19 - r8_11 - rsi_3) ^ rsi_3 u>> 0xc
+int32_t r8_14 = (r8_11 - rbp_22 - rsi_3) ^ rbp_22 << 0x10
+int32_t rsi_6 = (rsi_3 - r8_14 - rbp_22) ^ r8_14 u>> 5
+int32_t rbp_25 = (rbp_22 - r8_14 - rsi_6) ^ rsi_6 u>> 3
+int32_t r8_17 = (r8_14 - rbp_25 - rsi_6) ^ rbp_25 << 0xa
+int32_t rdx_9 = (0x9e3779b9 - rcx_4) ^ rcx_4 << 8
+int32_t rdi_11 = neg.d(rdx_9 + rcx_4) ^ rdx_9 u>> 0xd
+int32_t rcx_7 = (rcx_4 - rdx_9 - rdi_11) ^ rdi_11 u>> 0xc
+int32_t rdx_12 = (rdx_9 - rcx_7 - rdi_11) ^ rcx_7 << 0x10
+int32_t rdi_14 = (rdi_11 - rdx_12 - rcx_7) ^ rdx_12 u>> 5
+int32_t rcx_10 = (rcx_7 - rdx_12 - rdi_14) ^ rdi_14 u>> 3
+int32_t rdx_15 = (rdx_12 - rcx_10 - rdi_14) ^ rcx_10 << 0xa
+int32_t rdi_17 = (rdi_14 - rdx_15 - rcx_10) ^ rdx_15 u>> 0xf
+int32_t rsi_11 = (((rsi_6 - r8_17 - rbp_25) ^ r8_17 u>> 0xf) - rdi_17) ^ rdi_17 u>> 0xd
+int32_t rbx_12 = (0x9e3779b9 - rsi_11 - rdi_17) ^ rsi_11 << 8
+int32_t rdi_20 = (rdi_17 - rbx_12 - rsi_11) ^ rbx_12 u>> 0xd
+int32_t rsi_14 = (rsi_11 - rbx_12 - rdi_20) ^ rdi_20 u>> 0xc
+int32_t rbx_15 = (rbx_12 - rsi_14 - rdi_20) ^ rsi_14 << 0x10
+int32_t rdi_23 = (rdi_20 - rbx_15 - rsi_14) ^ rbx_15 u>> 5
+int32_t rsi_17 = (rsi_14 - rbx_15 - rdi_23) ^ rdi_23 u>> 3
+int32_t rbx_18 = (rbx_15 - rsi_17 - rdi_23) ^ rsi_17 << 0xa
+int64_t rax_75 = arg1[8]
+int32_t r8_20 = sub_140b5ead0(rax_75.d) + rax_75:4.d
+int32_t rdi_28 = (((rdi_23 - rbx_18 - rsi_17) ^ rbx_18 u>> 0xf) - r8_20) ^ r8_20 u>> 0xd
+int32_t rcx_16 = (0x9e3779b9 - rdi_28 - r8_20) ^ rdi_28 << 8
+int32_t r8_23 = (r8_20 - rcx_16 - rdi_28) ^ rcx_16 u>> 0xd
+int32_t rdx_17 = arg1[9].d
+int32_t rdi_31 = (rdi_28 - rcx_16 - r8_23) ^ r8_23 u>> 0xc
+int32_t rcx_19 = (rcx_16 - rdi_31 - r8_23) ^ rdi_31 << 0x10
+int32_t r8_26 = (r8_23 - rcx_19 - rdi_31) ^ rcx_19 u>> 5
+int32_t rdi_34 = (rdi_31 - rcx_19 - r8_26) ^ r8_26 u>> 3
+int32_t rcx_22 = (rcx_19 - rdi_34 - r8_26) ^ rdi_34 << 0xa
+int32_t r8_31 = (((r8_26 - rcx_22 - rdi_34) ^ rcx_22 u>> 0xf) - rdx_17) ^ rdx_17 u>> 0xd
+int32_t r15_2 = (0x9e3779b9 - r8_31 - rdx_17) ^ r8_31 << 8
+int32_t rdx_20 = (rdx_17 - r15_2 - r8_31) ^ r15_2 u>> 0xd
+int32_t r8_34 = (r8_31 - r15_2 - rdx_20) ^ rdx_20 u>> 0xc
+int32_t r15_5 = (r15_2 - r8_34 - rdx_20) ^ r8_34 << 0x10
+int32_t rdx_23 = (rdx_20 - r15_5 - r8_34) ^ r15_5 u>> 5
+int32_t r8_37 = (r8_34 - r15_5 - rdx_23) ^ rdx_23 u>> 3
+int32_t r15_8 = (r15_5 - r8_37 - rdx_23) ^ r8_37 << 0xa
+return zx.q(rdx_23 - r15_8 - r8_37) ^ zx.q(r15_8 u>> 0xf)

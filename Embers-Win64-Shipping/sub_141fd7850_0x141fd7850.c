@@ -1,0 +1,51 @@
+// 函数: sub_141fd7850
+// 地址: 0x141fd7850
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t* rdi = *arg1
+int32_t i_1 = arg1[1].d
+
+if (i_1 != 0)
+    void* rbx_1 = &rdi[5]
+    int32_t i
+    
+    do
+        int64_t* rcx = *(rbx_1 + 0x10)
+        
+        if (rcx != 0 && *(rbx_1 + 8) != 0)
+            (*(*rcx + 0x10))(rcx, rbx_1 + 8)
+            *(rbx_1 + 0x10) = 0
+        
+        sub_14081c9d0(rbx_1 + 8)
+        int64_t* rcx_2 = *rbx_1
+        
+        if (rcx_2 != 0 && *(rbx_1 - 8) != 0)
+            (*(*rcx_2 + 0x10))(rcx_2, rbx_1 - 8)
+            *rbx_1 = 0
+        
+        sub_14081c9d0(rbx_1 - 8)
+        int64_t* rcx_4 = *(rbx_1 - 0x10)
+        
+        if (rcx_4 != 0 && *(rbx_1 - 0x18) != 0)
+            (*(*rcx_4 + 0x10))(rcx_4, rbx_1 - 0x18)
+            *(rbx_1 - 0x10) = 0
+        
+        sub_14081c9d0(rbx_1 - 0x18)
+        int64_t* rcx_6 = *(rbx_1 - 0x20)
+        
+        if (rcx_6 != 0 && *rdi != 0)
+            (*(*rcx_6 + 0x10))(rcx_6, rdi)
+            *(rbx_1 - 0x20) = 0
+        
+        sub_14081c9d0(rdi)
+        rdi = &rdi[9]
+        rbx_1 += 0x48
+        i = i_1
+        i_1 -= 1
+    while (i != 1)
+    rdi = *arg1
+
+if (rdi == 0)
+    return 
+
+return sub_140a74f90(rdi) __tailcall

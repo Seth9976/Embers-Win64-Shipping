@@ -1,0 +1,15 @@
+// 函数: sub_141d5ec10
+// 地址: 0x141d5ec10
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143f37dd0
+
+if (result != 0)
+    return result
+
+int32_t var_68_1 = 0x138
+int64_t rbx
+sub_140be0380(/Script/MediaAssets", &(*UMediaPlayer")[1], &data_143f37dd0, sub_141d60670, rbx, 8, 
+    0x10000000, 0, Engine", sub_141d5fd80, sub_140594890, sub_140594850, j_sub_140d41340, 
+    j_sub_140d41340, 0, 0)
+return data_143f37dd0

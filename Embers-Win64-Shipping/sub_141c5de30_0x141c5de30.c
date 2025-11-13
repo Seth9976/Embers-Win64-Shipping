@@ -1,0 +1,7 @@
+// 函数: sub_141c5de30
+// 地址: 0x141c5de30
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int512_t result
+result.o = *(arg1 + 0x114)
+return result

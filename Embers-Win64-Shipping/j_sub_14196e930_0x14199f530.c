@@ -1,0 +1,5 @@
+// 函数: j_sub_14196e930
+// 地址: 0x14199f530
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return sub_14196e930(arg1, arg2) __tailcall

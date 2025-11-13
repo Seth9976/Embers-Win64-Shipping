@@ -1,0 +1,19 @@
+// 函数: sub_14044b520
+// 地址: 0x14044b520
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t* rcx = data_143db18d0
+
+if (rcx == 0)
+    sub_140a53c40()
+    rcx = data_143db18d0
+
+int64_t r8
+r8.b = 1
+int64_t* rax_1 = (*(*rcx + 0x20))(rcx, timecode.UseDropFormatTimecodeByDefaultWhenSupported", r8, By default, should we generate a timecode in drop frame format when the frame rate does support it."
+    , 0)
+data_143de6fd8 = rax_1
+data_143de6fd0 = &data_142d3ff18
+int64_t rdx = *rax_1
+data_143de6fe0 = (*(rdx + 0x50))(rax_1, rdx)
+return atexit(sub_142cc0180) __tailcall

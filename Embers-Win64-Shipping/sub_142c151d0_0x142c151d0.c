@@ -1,0 +1,11 @@
+// 函数: sub_142c151d0
+// 地址: 0x142c151d0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t* rax = sub_142c04220(*arg1)
+rax[1] = j_sub_142c1a040
+*rax = arg2
+rax[2] = 0
+rax[3].d = 0
+sub_142c13d40(sub_142c1e890(arg2), &rax[2])
+return 0

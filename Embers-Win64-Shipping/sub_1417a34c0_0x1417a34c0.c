@@ -1,0 +1,74 @@
+// 函数: sub_1417a34c0
+// 地址: 0x1417a34c0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+float zmm1[0x4] = *arg2
+float zmm6[0x4] = *arg3
+float temp0[0x4] = _mm_add_ps(zmm1, zmm1)
+float zmm7[0x4] = arg3[1]
+float temp0_1[0x4] = _mm_shuffle_ps(zmm1, zmm1, 4)
+float temp0_2[0x4] = _mm_shuffle_ps(zmm1, zmm1, 0xff)
+float temp0_3[0x4] = _mm_mul_ps(zmm1, temp0)
+float temp0_5[0x4] = _mm_mul_ps(_mm_shuffle_ps(temp0, temp0, 0x29), temp0_1)
+float zmm8[0x4] = arg3[2]
+float temp0_8[0x4] =
+    _mm_add_ps(_mm_shuffle_ps(temp0_3, temp0_3, 0x1a), _mm_shuffle_ps(temp0_3, temp0_3, 1))
+float zmm9[0x4] = arg3[3]
+float zmm11[0x4] = arg2[1]
+float temp0_10[0x4] = _mm_mul_ps(_mm_shuffle_ps(temp0, temp0, 0x12), temp0_2)
+float temp0_11[0x4] = _mm_add_ps(temp0_10, temp0_5)
+float temp0_12[0x4] = _mm_sub_ps(temp0_5, temp0_10)
+float zmm2[0x4] = data_143ef7f20
+zmm2[0].q = zmm11 u>> 0x40
+float temp0_13[0x4] = _mm_sub_ps(zmm2, temp0_8)
+float temp0_14[0x4] = _mm_shuffle_ps(zmm11, zmm2, 0xc4)
+zmm1 = __andps_xmmxud_memxud(temp0_13, data_143ef7f30)
+float temp0_16[0x4] = _mm_shuffle_ps(temp0_12, zmm1, 0x32)
+float temp0_18[0x4] = _mm_shuffle_ps(_mm_shuffle_ps(temp0_11, zmm1, 0), temp0_16, 0x82)
+float temp0_19[0x4] = _mm_shuffle_ps(temp0_11, zmm1, 0x31)
+float temp0_21[0x4] = _mm_shuffle_ps(_mm_shuffle_ps(temp0_12, zmm1, 0x10), temp0_19, 0x88)
+float temp0_22[0x4] = _mm_shuffle_ps(temp0_18, temp0_18, 0x55)
+float temp0_23[0x4] = _mm_shuffle_ps(temp0_18, temp0_18, 0)
+float temp0_25[0x4] = _mm_shuffle_ps(_mm_shuffle_ps(temp0_11, temp0_12, 0x12), zmm1, 0xe8)
+float temp0_26[0x4] = _mm_shuffle_ps(temp0_18, temp0_18, 0xaa)
+float temp0_27[0x4] = _mm_shuffle_ps(temp0_21, temp0_21, 0)
+float temp0_28[0x4] = _mm_mul_ps(temp0_22, zmm7)
+float temp0_29[0x4] = _mm_mul_ps(temp0_26, zmm8)
+float temp0_31[0x4] = _mm_mul_ps(_mm_shuffle_ps(temp0_18, temp0_18, 0xff), zmm9)
+float temp0_32[0x4] = _mm_mul_ps(temp0_23, zmm6)
+float temp0_33[0x4] = _mm_mul_ps(temp0_27, zmm6)
+float temp0_34[0x4] = _mm_add_ps(temp0_32, temp0_28)
+float temp0_36[0x4] = _mm_mul_ps(_mm_shuffle_ps(temp0_21, temp0_21, 0x55), zmm7)
+float temp0_37[0x4] = _mm_add_ps(temp0_34, temp0_29)
+float temp0_38[0x4] = _mm_shuffle_ps(temp0_21, temp0_21, 0xaa)
+float temp0_39[0x4] = _mm_add_ps(temp0_33, temp0_36)
+float temp0_40[0x4] = _mm_mul_ps(temp0_38, zmm8)
+float temp0_41[0x4] = _mm_shuffle_ps(temp0_21, temp0_21, 0xff)
+float temp0_42[0x4] = _mm_add_ps(temp0_37, temp0_31)
+float temp0_43[0x4] = _mm_mul_ps(temp0_41, zmm9)
+float temp0_44[0x4] = _mm_add_ps(temp0_39, temp0_40)
+float temp0_46[0x4] = _mm_mul_ps(_mm_shuffle_ps(temp0_25, temp0_25, 0), zmm6)
+float temp0_47[0x4] = _mm_add_ps(temp0_44, temp0_43)
+float temp0_48[0x4] = _mm_shuffle_ps(temp0_25, temp0_25, 0x55)
+float temp0_49[0x4] = _mm_shuffle_ps(temp0_25, temp0_25, 0xaa)
+float temp0_50[0x4] = _mm_shuffle_ps(temp0_14, temp0_14, 0)
+float temp0_51[0x4] = _mm_mul_ps(temp0_48, zmm7)
+float temp0_52[0x4] = _mm_mul_ps(temp0_49, zmm8)
+float temp0_53[0x4] = _mm_mul_ps(temp0_50, zmm6)
+float temp0_54[0x4] = _mm_add_ps(temp0_46, temp0_51)
+float temp0_55[0x4] = _mm_shuffle_ps(temp0_25, temp0_25, 0xff)
+float temp0_56[0x4] = _mm_shuffle_ps(temp0_14, temp0_14, 0x55)
+*arg1 = temp0_42
+float temp0_57[0x4] = _mm_add_ps(temp0_54, temp0_52)
+float temp0_58[0x4] = _mm_mul_ps(temp0_55, zmm9)
+float temp0_59[0x4] = _mm_shuffle_ps(temp0_14, temp0_14, 0xaa)
+float temp0_60[0x4] = _mm_mul_ps(temp0_56, zmm7)
+float temp0_61[0x4] = _mm_add_ps(temp0_57, temp0_58)
+float temp0_62[0x4] = _mm_mul_ps(temp0_59, zmm8)
+float temp0_63[0x4] = _mm_add_ps(temp0_53, temp0_60)
+float temp0_65[0x4] = _mm_mul_ps(_mm_shuffle_ps(temp0_14, temp0_14, 0xff), zmm9)
+arg1[1] = temp0_47
+float temp0_66[0x4] = _mm_add_ps(temp0_63, temp0_62)
+arg1[2] = temp0_61
+arg1[3] = _mm_add_ps(temp0_66, temp0_65)
+return arg1

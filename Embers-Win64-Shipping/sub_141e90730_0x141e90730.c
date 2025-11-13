@@ -1,0 +1,10 @@
+// 函数: sub_141e90730
+// 地址: 0x141e90730
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*arg1 = 0
+__builtin_memcpy(&arg1[4], 
+    "\x00\x00\x80\x3f\x00\x00\x00\x3f\x00\x40\x9c\x46\x00\x00\x00\x3f\x00\x00\x80\x3f\x00\x00\x00\x3f\x"
+"00\x40\x9c\x46\x00\x00\x00\x3f", 
+    0x20)
+return arg1

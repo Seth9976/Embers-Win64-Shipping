@@ -1,0 +1,35 @@
+// 函数: sub_1408788f0
+// 地址: 0x1408788f0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t var_38 = 0
+int64_t var_30 = 0
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_1 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_1[4]
+    sub_140d30490(arg2, &var_38, r8_1)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &var_38)
+
+int128_t var_28
+
+if (*(arg2 + 0x20) == 0)
+    int64_t* r8_3 = *(arg2 + 0x80)
+    *(arg2 + 0x80) = r8_3[4]
+    sub_140d30490(arg2, &var_28, r8_3)
+else
+    sub_140d30460(arg2, *(arg2 + 0x18), &var_28)
+
+int64_t rax_3 = *(arg2 + 0x20)
+int64_t rdi
+rdi.b = rax_3 != 0
+int128_t var_18 = var_28
+*(arg2 + 0x20) = rdi + rax_3
+int64_t result = sub_14083c1d0(arg1, &var_38, &var_18)
+int64_t rcx_3 = var_38
+
+if (rcx_3 == 0)
+    return result
+
+return sub_140a74f90(rcx_3)

@@ -1,0 +1,9 @@
+// 函数: sub_142002bc0
+// 地址: 0x142002bc0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+sub_140d3c6e0(arg1 + 8)
+uint128_t zmm1 = *(arg1 + 0x10)
+_mm_bsrli_si128(zmm1, 8)
+*(arg1 + 0x20)
+jump(zmm1.q)

@@ -1,0 +1,6 @@
+// 函数: sub_14053d450
+// 地址: 0x14053d450
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return sub_140d30e80(sub_142460230, sub_14245d4d0, UAnimCurveCompressionCodec_UniformIndexable", 
+    /Script/Engine", 0, nullptr, 0)

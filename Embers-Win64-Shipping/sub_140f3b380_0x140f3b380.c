@@ -1,0 +1,36 @@
+// 函数: sub_140f3b380
+// 地址: 0x140f3b380
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*(arg1 + 0x2a8) = *(arg2 + 0x260)
+*(arg1 + 0x2b0) = *(arg2 + 0x1a0)
+*(arg1 + 0x2b1) = *(arg2 + 0x1a1)
+sub_140692f90(arg1 + 0x2b8, arg2 + 0x1a8)
+*(arg1 + 0x3b1) = *(arg2 + 0x1b8)
+*(arg1 + 0x3b2) = *(arg2 + 0x1b9)
+*(arg1 + 0x2c8) = *(arg2 + 0x1c0)
+*(arg1 + 0x2c9) = *(arg2 + 0x1c1)
+sub_140692f90(arg1 + 0x2d0, arg2 + 0x1c8)
+*(arg1 + 0x2e0) = *(arg2 + 0x1d8)
+*(arg1 + 0x390) = *(arg2 + 0x268)
+*(arg1 + 0x394) = *(arg2 + 0x26c)
+sub_140692f90(arg1 + 0x398, arg2 + 0x270)
+*(arg1 + 0x368) = *(arg2 + 0x280)
+*(arg1 + 0x36c) = *(arg2 + 0x284)
+sub_140692f90(arg1 + 0x370, arg2 + 0x288)
+*(arg1 + 0x3a8) = *(arg2 + 0x298)
+*(arg1 + 0x3ac) = *(arg2 + 0x29c)
+sub_140693390(arg1 + 0x2e8, arg2 + 0x1e0)
+*(arg1 + 0x310) = *(arg2 + 0x208)
+sub_140692f90(arg1 + 0x318, arg2 + 0x210)
+sub_140693390(arg1 + 0x328, arg2 + 0x220)
+*(arg1 + 0x350) = *(arg2 + 0x248)
+sub_140692f90(arg1 + 0x358, arg2 + 0x250)
+*(arg1 + 0x3b3) = *(arg2 + 0x2a0)
+sub_1407473e0(arg1 + 0x3b8, arg2 + 0x2a8)
+sub_1407473e0(arg1 + 0x3c8, arg2 + 0x2b8)
+sub_1407473e0(arg1 + 0x3d8, arg2 + 0x2c8)
+sub_1407473e0(arg1 + 0x3e8, arg2 + 0x2d8)
+int64_t* result = sub_1407473e0(arg1 + 0x3f8, arg2 + 0x2e8)
+*(arg1 + 0x3b0) = 0
+return result

@@ -1,0 +1,70 @@
+// 函数: sub_141dac780
+// 地址: 0x141dac780
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t* rbx = arg1[0x60]
+
+if (rbx != 0)
+    rbx[1].d += 1
+
+int64_t var_18 = *arg2
+void* rax_1 = arg2[1]
+void* var_10 = rax_1
+
+if (rax_1 != 0)
+    *(rax_1 + 8) += 1
+
+int32_t result = sub_141daee30(arg1, 2, 7, &var_18)
+
+if (arg4 != 0)
+    int64_t* rcx = *arg3
+    result = (*(*rcx + 0x40))(rcx)
+
+if (arg4 == 0 || result != 0xcc)
+    arg1[0x76].d += 1
+    
+    if (arg1[0x76].d s> 6)
+        result = (*(*arg1 + 0x198))(arg1)
+        *(arg1 + 0x29c) = 1
+else
+    arg1[0x76].d = 0
+
+if (rbx != 0)
+    rbx[1].d -= 1
+    
+    if (rbx[1].d == 1)
+        result = (**rbx)(rbx)
+        int32_t temp3_1 = *(rbx + 0xc)
+        *(rbx + 0xc) -= 1
+        
+        if (temp3_1 == 1)
+            result = (*(*rbx + 8))(rbx, 1)
+
+int64_t* rbx_1 = arg2[1]
+
+if (rbx_1 != 0)
+    rbx_1[1].d -= 1
+    
+    if (rbx_1[1].d == 1)
+        result = (**rbx_1)(rbx_1)
+        int32_t temp4_1 = *(rbx_1 + 0xc)
+        *(rbx_1 + 0xc) -= 1
+        
+        if (temp4_1 == 1)
+            result = (*(*rbx_1 + 8))(rbx_1, 1)
+
+int64_t* rbx_2 = arg3[1]
+
+if (rbx_2 != 0)
+    result = rbx_2[1].d
+    rbx_2[1].d -= 1
+    
+    if (result == 1)
+        result = (**rbx_2)(rbx_2)
+        int32_t rdi_1 = *(rbx_2 + 0xc)
+        *(rbx_2 + 0xc) -= 1
+        
+        if (rdi_1 == 1)
+            return (*(*rbx_2 + 8))(rbx_2, zx.q(rdi_1))
+
+return result

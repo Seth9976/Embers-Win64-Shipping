@@ -1,0 +1,5 @@
+// 函数: sub_14254ac70
+// 地址: 0x14254ac70
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return 0x178b665f

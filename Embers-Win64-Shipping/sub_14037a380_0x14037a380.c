@@ -1,0 +1,384 @@
+// 函数: sub_14037a380
+// 地址: 0x14037a380
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int16_t* rdx = *arg1
+int32_t* r8 = arg1[1]
+int64_t r9 = *(arg1 + 0x24)
+int64_t r10 = sx.q(*(arg1 + 0x3c))
+int128_t* rax = arg1[2]
+uint128_t zmm1
+zmm1.d = rax[3].d.d f* 3.05175781e-05f
+uint128_t zmm4
+zmm4.d = rax[2].d.d f* 3.05175781e-05f
+uint128_t zmm5
+zmm5.d = (*(rax + 0x24)).d f* 3.05175781e-05f
+uint128_t zmm6
+zmm6.d = (*(rax + 0x28)).d f* 3.05175781e-05f
+uint128_t zmm7
+zmm7.d = (*(rax + 0x2c)).d f* 3.05175781e-05f
+int128_t zmm8
+zmm8.d = (*rax).d f* 3.05175781e-05f
+int128_t zmm9
+zmm9.d = (*(rax + 4)).d f* 3.05175781e-05f
+int128_t zmm10
+zmm10.d = (*(rax + 8)).d f* 3.05175781e-05f
+int128_t zmm11
+zmm11.d = (*(rax + 0xc)).d f* 3.05175781e-05f
+int32_t arg_20 = zmm1.d
+int128_t zmm12
+zmm12.d = rax[1].d.d f* 3.05175781e-05f
+int128_t zmm13
+zmm13.d = (*(rax + 0x14)).d f* 3.05175781e-05f
+int128_t zmm14
+zmm14.d = (*(rax + 0x18)).d f* 3.05175781e-05f
+int32_t arg_10 = zmm4.d
+int32_t arg_8 = zmm5.d
+int32_t arg_18 = zmm6.d
+zmm1.d = (*(rax + 0x34)).d f* 3.05175781e-05f
+int128_t zmm15
+zmm15.d = (*(rax + 0x1c)).d f* 3.05175781e-05f
+int32_t var_138 = zmm7.d
+int32_t var_120 = zmm1.d
+zmm1.d = (*(rax + 0x38)).d f* 3.05175781e-05f
+int32_t var_10c = zmm1.d
+zmm1.d = (*(rax + 0x3c)).d f* 3.05175781e-05f
+int32_t var_110 = zmm1.d
+zmm1.d = rax[4].d.d f* 3.05175781e-05f
+int32_t var_128 = zmm1.d
+zmm1.d = (*(rax + 0x44)).d f* 3.05175781e-05f
+int32_t var_118 = zmm1.d
+zmm1.d = (*(rax + 0x48)).d f* 3.05175781e-05f
+int32_t var_134 = zmm1.d
+zmm1.d = (*(rax + 0x4c)).d f* 3.05175781e-05f
+int32_t var_130 = zmm1.d
+zmm1.d = rax[5].d.d f* 3.05175781e-05f
+int32_t var_12c = zmm1.d
+zmm1.d = (*(rax + 0x54)).d f* 3.05175781e-05f
+int32_t var_124 = zmm1.d
+zmm1.d = (*(rax + 0x58)).d f* 3.05175781e-05f
+int32_t var_11c = zmm1.d
+uint64_t result = arg1[3]
+zmm1.d = (*(rax + 0x5c)).d f* 3.05175781e-05f
+int32_t var_114 = zmm1.d
+uint128_t zmm0
+uint128_t zmm2
+uint128_t zmm3
+
+if (result != 0)
+    zmm1.d = (*result).d f* 3.05175781e-05f
+    int32_t var_f0_1 = zmm1.d
+    zmm1.d = (*(result + 4)).d f* 3.05175781e-05f
+    int32_t var_100_1 = zmm1.d
+    zmm1.d = (*(result + 8)).d f* 3.05175781e-05f
+    int32_t var_c0_1 = zmm1.d
+    zmm1.d = (*(result + 0xc)).d f* 3.05175781e-05f
+    int32_t var_f8_1 = zmm1.d
+    zmm1.d = (*(result + 0x10)).d f* 3.05175781e-05f
+    int32_t var_d0_1 = zmm1.d
+    zmm1.d = (*(result + 0x14)).d f* 3.05175781e-05f
+    int32_t var_108_1 = zmm1.d
+    zmm1.d = (*(result + 0x18)).d f* 3.05175781e-05f
+    int32_t var_b0_1 = zmm1.d
+    zmm1.d = (*(result + 0x1c)).d f* 3.05175781e-05f
+    int32_t var_e8_1 = zmm1.d
+    zmm1.d = (*(result + 0x20)).d f* 3.05175781e-05f
+    int32_t var_c8_1 = zmm1.d
+    zmm1.d = (*(result + 0x24)).d f* 3.05175781e-05f
+    int32_t var_e0_1 = zmm1.d
+    zmm1.d = (*(result + 0x28)).d f* 3.05175781e-05f
+    int32_t var_b8_1 = zmm1.d
+    zmm1.d = (*(result + 0x2c)).d f* 3.05175781e-05f
+    int32_t var_d8_1 = zmm1.d
+    zmm1.d = (*(result + 0x30)).d f* 3.05175781e-05f
+    int32_t var_104_1 = zmm1.d
+    zmm1.d = (*(result + 0x34)).d f* 3.05175781e-05f
+    int32_t var_fc_1 = zmm1.d
+    zmm1.d = (*(result + 0x38)).d f* 3.05175781e-05f
+    int32_t var_f4_1 = zmm1.d
+    zmm1.d = (*(result + 0x3c)).d f* 3.05175781e-05f
+    int32_t var_ec_1 = zmm1.d
+    zmm1.d = (*(result + 0x40)).d f* 3.05175781e-05f
+    int32_t var_e4_1 = zmm1.d
+    zmm1.d = (*(result + 0x44)).d f* 3.05175781e-05f
+    int32_t var_dc_1 = zmm1.d
+    zmm1.d = (*(result + 0x48)).d f* 3.05175781e-05f
+    int32_t var_d4_1 = zmm1.d
+    zmm1.d = (*(result + 0x4c)).d f* 3.05175781e-05f
+    int32_t var_cc_1 = zmm1.d
+    zmm1.d = (*(result + 0x50)).d f* 3.05175781e-05f
+    int32_t var_c4_1 = zmm1.d
+    zmm1.d = (*(result + 0x54)).d f* 3.05175781e-05f
+    int32_t var_bc_1 = zmm1.d
+    zmm1.d = (*(result + 0x58)).d f* 3.05175781e-05f
+    int32_t var_b4_1 = zmm1.d
+    zmm1.d = (*(result + 0x5c)).d f* 3.05175781e-05f
+    int32_t var_ac_1 = zmm1.d
+    
+    if (r9 != 0)
+        int64_t i_3 = ((r9 - 1) u>> 2) + 1
+        int64_t i
+        
+        do
+            int32_t rax_4 = sx.d(*rdx)
+            rdx = &rdx[4]
+            zmm3 = zx.o(sx.d(rdx[-3]))
+            int32_t rax_6 = sx.d(rdx[-2])
+            zmm0 = _mm_cvtepi32_ps(zx.o(rax_4))
+            arg_10 = zmm0.d
+            zmm0.d = zmm0.d f* zmm8.d
+            result = zx.q(sx.d(rdx[-1]))
+            zmm3 = _mm_cvtepi32_ps(zmm3)
+            int32_t var_138_1 = zmm3.d
+            zmm1 = _mm_cvtepi32_ps(zx.o(rax_6))
+            arg_18 = zmm1.d
+            zmm1.d = zmm1.d f* zmm10.d
+            arg_8 = _mm_cvtepi32_ps(zx.o(result.d)).d
+            zmm2 = zmm3
+            zmm3.d = zmm3.d f* zmm13.d
+            zmm2.d = zmm2.d f* zmm9.d
+            zmm2.d = zmm2.d f+ zmm0.d
+            zmm0.d = arg_8.d f* zmm11.d
+            zmm2.d = zmm2.d f+ zmm1.d
+            zmm1.d = arg_18.d f* zmm14.d
+            zmm2.d = zmm2.d f+ zmm0.d
+            zmm0.d = arg_10.d f* zmm12.d
+            zmm3.d = zmm3.d f+ zmm0.d
+            zmm0.d = arg_8.d f* zmm15.d
+            zmm3.d = zmm3.d f+ zmm1.d
+            zmm1.d = arg_18.d f* zmm6.d
+            zmm3.d = zmm3.d f+ zmm0.d
+            zmm0.d = arg_10.d f* zmm4.d
+            
+            if (r10 == 0)
+                *r8 = zmm2.d
+                r8[1] = zmm3.d
+                zmm3 = var_138_1
+                zmm2 = zmm3
+                zmm3.d = zmm3.d f* var_120
+                zmm2.d = zmm2.d f* zmm5.d
+                zmm2.d = zmm2.d f+ zmm0.d
+                zmm0.d = arg_8.d f* zmm7.d
+                zmm2.d = zmm2.d f+ zmm1.d
+                zmm1.d = arg_18.d f* var_10c
+                zmm2.d = zmm2.d f+ zmm0.d
+                zmm0.d = arg_10.d f* arg_20
+                r8[2] = zmm2.d
+                zmm3.d = zmm3.d f+ zmm0.d
+                zmm0.d = arg_8.d f* var_110
+                zmm3.d = zmm3.d f+ zmm1.d
+                zmm1.d = arg_18.d f* var_134
+                zmm3.d = zmm3.d f+ zmm0.d
+                zmm0.d = arg_10.d f* var_128
+                r8[3] = zmm3.d
+                zmm3 = var_138_1
+                zmm2 = zmm3
+                zmm3.d = zmm3.d f* var_124
+                zmm2.d = zmm2.d f* var_118
+                zmm2.d = zmm2.d f+ zmm0.d
+                zmm2.d = zmm2.d f+ zmm1.d
+                zmm1 = arg_8
+                zmm0 = zmm1
+                zmm1.d = zmm1.d f* var_114
+                zmm0.d = zmm0.d f* var_130
+                zmm2.d = zmm2.d f+ zmm0.d
+                zmm0.d = arg_10.d f* var_12c
+                r8[4] = zmm2.d
+                zmm3.d = zmm3.d f+ zmm0.d
+                zmm0.d = arg_18.d f* var_11c
+                zmm3.d = zmm3.d f+ zmm0.d
+                zmm3.d = zmm3.d f+ zmm1.d
+            else
+                zmm2.d = zmm2.d f+ *r8
+                *r8 = zmm2.d
+                zmm3.d = zmm3.d f+ r8[1]
+                r8[1] = zmm3.d
+                zmm3 = var_138_1
+                zmm2 = zmm3
+                zmm3.d = zmm3.d f* var_120
+                zmm2.d = zmm2.d f* zmm5.d
+                zmm2.d = zmm2.d f+ zmm0.d
+                zmm0.d = arg_8.d f* zmm7.d
+                zmm2.d = zmm2.d f+ zmm1.d
+                zmm1.d = arg_18.d f* var_10c
+                zmm2.d = zmm2.d f+ zmm0.d
+                zmm0.d = arg_10.d f* arg_20
+                zmm2.d = zmm2.d f+ r8[2]
+                zmm3.d = zmm3.d f+ zmm0.d
+                r8[2] = zmm2.d
+                zmm0.d = arg_8.d f* var_110
+                zmm3.d = zmm3.d f+ zmm1.d
+                zmm1.d = arg_18.d f* var_134
+                zmm3.d = zmm3.d f+ zmm0.d
+                zmm0.d = arg_10.d f* var_128
+                zmm3.d = zmm3.d f+ r8[3]
+                r8[3] = zmm3.d
+                zmm3 = var_138_1
+                zmm2 = zmm3
+                zmm3.d = zmm3.d f* var_124
+                zmm2.d = zmm2.d f* var_118
+                zmm2.d = zmm2.d f+ zmm0.d
+                zmm2.d = zmm2.d f+ zmm1.d
+                zmm1 = arg_8
+                zmm0 = zmm1
+                zmm1.d = zmm1.d f* var_114
+                zmm0.d = zmm0.d f* var_130
+                zmm2.d = zmm2.d f+ zmm0.d
+                zmm0.d = arg_10.d f* var_12c
+                zmm2.d = zmm2.d f+ r8[4]
+                zmm3.d = zmm3.d f+ zmm0.d
+                r8[4] = zmm2.d
+                zmm0.d = arg_18.d f* var_11c
+                zmm3.d = zmm3.d f+ zmm0.d
+                zmm3.d = zmm3.d f+ zmm1.d
+                zmm3.d = zmm3.d f+ r8[5]
+            
+            zmm8.d = zmm8.d f+ var_f0_1
+            zmm9.d = zmm9.d f+ var_100_1
+            zmm1.d = arg_20.d f+ var_104_1
+            zmm10.d = zmm10.d f+ var_c0_1
+            zmm11.d = zmm11.d f+ var_f8_1
+            zmm12.d = zmm12.d f+ var_d0_1
+            zmm13.d = zmm13.d f+ var_108_1
+            zmm14.d = zmm14.d f+ var_b0_1
+            zmm15.d = zmm15.d f+ var_e8_1
+            zmm4.d = zmm4.d f+ var_c8_1
+            zmm5.d = zmm5.d f+ var_e0_1
+            zmm6.d = zmm6.d f+ var_b8_1
+            zmm7.d = zmm7.d f+ var_d8_1
+            arg_20 = zmm1.d
+            r8[5] = zmm3.d
+            r8 = &r8[6]
+            i = i_3
+            i_3 -= 1
+            zmm1.d = var_120.d f+ var_fc_1
+            var_120 = zmm1.d
+            zmm1.d = var_10c.d f+ var_f4_1
+            var_10c = zmm1.d
+            zmm1.d = var_110.d f+ var_ec_1
+            var_110 = zmm1.d
+            zmm1.d = var_128.d f+ var_e4_1
+            var_128 = zmm1.d
+            zmm1.d = var_118.d f+ var_dc_1
+            var_118 = zmm1.d
+            zmm1.d = var_134.d f+ var_d4_1
+            var_134 = zmm1.d
+            zmm1.d = var_130.d f+ var_cc_1
+            var_130 = zmm1.d
+            zmm1.d = var_12c.d f+ var_c4_1
+            var_12c = zmm1.d
+            zmm1.d = var_124.d f+ var_bc_1
+            var_124 = zmm1.d
+            zmm1.d = var_11c.d f+ var_b4_1
+            var_11c = zmm1.d
+            zmm1.d = var_114.d f+ var_ac_1
+            var_114 = zmm1.d
+        while (i != 1)
+else if (r9 != 0)
+    int64_t i_2 = ((r9 - 1) u>> 2) + 1
+    int64_t i_1
+    
+    do
+        int32_t rax_1 = sx.d(*rdx)
+        rdx = &rdx[4]
+        zmm4 = zx.o(sx.d(rdx[-3]))
+        int32_t rax_3 = sx.d(rdx[-2])
+        zmm5 = _mm_cvtepi32_ps(zx.o(rax_1))
+        result = zx.q(sx.d(rdx[-1]))
+        zmm4 = _mm_cvtepi32_ps(zmm4)
+        zmm0.d = zmm5.d f* zmm8.d
+        zmm6 = _mm_cvtepi32_ps(zx.o(rax_3))
+        zmm2.d = zmm4.d f* zmm9.d
+        zmm3.d = zmm4.d f* zmm13.d
+        zmm2.d = zmm2.d f+ zmm0.d
+        zmm7 = _mm_cvtepi32_ps(zx.o(result.d))
+        zmm1.d = zmm6.d f* zmm10.d
+        zmm0.d = zmm7.d f* zmm11.d
+        zmm2.d = zmm2.d f+ zmm1.d
+        zmm2.d = zmm2.d f+ zmm0.d
+        zmm1.d = zmm6.d f* zmm14.d
+        zmm0.d = zmm5.d f* zmm12.d
+        zmm3.d = zmm3.d f+ zmm0.d
+        zmm3.d = zmm3.d f+ zmm1.d
+        zmm0.d = zmm7.d f* zmm15.d
+        zmm1.d = zmm6.d f* arg_18
+        zmm3.d = zmm3.d f+ zmm0.d
+        zmm0.d = zmm5.d f* arg_10
+        
+        if (r10 == 0)
+            *r8 = zmm2.d
+            r8[1] = zmm3.d
+            zmm2.d = zmm4.d f* arg_8
+            zmm3.d = zmm4.d f* var_120
+            zmm2.d = zmm2.d f+ zmm0.d
+            zmm2.d = zmm2.d f+ zmm1.d
+            zmm0.d = zmm7.d f* var_138
+            zmm1.d = zmm6.d f* var_10c
+            zmm2.d = zmm2.d f+ zmm0.d
+            r8[2] = zmm2.d
+            zmm0.d = zmm5.d f* arg_20
+            zmm2.d = zmm4.d f* var_118
+            zmm4.d = zmm4.d f* var_124
+            zmm3.d = zmm3.d f+ zmm0.d
+            zmm3.d = zmm3.d f+ zmm1.d
+            zmm0.d = zmm7.d f* var_110
+            zmm1.d = zmm6.d f* var_134
+            zmm6.d = zmm6.d f* var_11c
+            zmm3.d = zmm3.d f+ zmm0.d
+            r8[3] = zmm3.d
+            zmm0.d = zmm5.d f* var_128
+            zmm5.d = zmm5.d f* var_12c
+            zmm2.d = zmm2.d f+ zmm0.d
+            zmm4.d = zmm4.d f+ zmm5.d
+            zmm0.d = zmm7.d f* var_130
+            zmm7.d = zmm7.d f* var_114
+            zmm2.d = zmm2.d f+ zmm1.d
+            zmm4.d = zmm4.d f+ zmm6.d
+            zmm2.d = zmm2.d f+ zmm0.d
+            zmm4.d = zmm4.d f+ zmm7.d
+            r8[4] = zmm2.d
+        else
+            zmm2.d = zmm2.d f+ *r8
+            *r8 = zmm2.d
+            zmm3.d = zmm3.d f+ r8[1]
+            zmm2.d = zmm4.d f* arg_8
+            zmm2.d = zmm2.d f+ zmm0.d
+            r8[1] = zmm3.d
+            zmm0.d = zmm7.d f* var_138
+            zmm3.d = zmm4.d f* var_120
+            zmm2.d = zmm2.d f+ zmm1.d
+            zmm2.d = zmm2.d f+ zmm0.d
+            zmm1.d = zmm6.d f* var_10c
+            zmm0.d = zmm5.d f* arg_20
+            zmm2.d = zmm2.d f+ r8[2]
+            r8[2] = zmm2.d
+            zmm3.d = zmm3.d f+ zmm0.d
+            zmm0.d = zmm7.d f* var_110
+            zmm2.d = zmm4.d f* var_118
+            zmm4.d = zmm4.d f* var_124
+            zmm3.d = zmm3.d f+ zmm1.d
+            zmm3.d = zmm3.d f+ zmm0.d
+            zmm3.d = zmm3.d f+ r8[3]
+            r8[3] = zmm3.d
+            zmm0.d = zmm5.d f* var_128
+            zmm1.d = zmm6.d f* var_134
+            zmm5.d = zmm5.d f* var_12c
+            zmm2.d = zmm2.d f+ zmm0.d
+            zmm4.d = zmm4.d f+ zmm5.d
+            zmm2.d = zmm2.d f+ zmm1.d
+            zmm0.d = zmm7.d f* var_130
+            zmm6.d = zmm6.d f* var_11c
+            zmm7.d = zmm7.d f* var_114
+            zmm4.d = zmm4.d f+ zmm6.d
+            zmm2.d = zmm2.d f+ zmm0.d
+            zmm2.d = zmm2.d f+ r8[4]
+            zmm4.d = zmm4.d f+ zmm7.d
+            r8[4] = zmm2.d
+            zmm4.d = zmm4.d f+ r8[5]
+        
+        r8[5] = zmm4.d
+        r8 = &r8[6]
+        i_1 = i_2
+        i_2 -= 1
+    while (i_1 != 1)
+return result

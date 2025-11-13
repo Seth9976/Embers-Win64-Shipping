@@ -1,0 +1,13 @@
+// 函数: sub_14281eed4
+// 地址: 0x14281eed4
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t result
+
+if (arg2 - 9 u> 3)
+    result.b = 0
+else
+    sub_14281dc4c(arg1, arg1 + 0x3c, arg2, arg3)
+    result.b = 1
+
+return result

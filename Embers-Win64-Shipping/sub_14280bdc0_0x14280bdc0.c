@@ -1,0 +1,43 @@
+// 函数: sub_14280bdc0
+// 地址: 0x14280bdc0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+sub_14280afc0(arg1)
+arg1[0x3c].d = 0x1ec
+arg1[0x3b] = "Angle"
+arg1[0x3d] = sub_14280cd30
+arg1[0x3e] = "Velocity"
+arg1[0x40] = sub_14280cd40
+arg1[0x3f].d = 0x1ed
+arg1[0x41] = "Limit"
+arg1[0x43] = sub_14280cd60
+arg1[0x44] = sub_14280cd50
+arg1[0x42].d = 0x1ee
+arg1[0x45] = "DriveVelocity"
+arg1[0x47] = sub_14280cda0
+arg1[0x48] = sub_14280cd90
+arg1[0x46].d = 0x1ef
+arg1[0x49] = "DriveForceLimit"
+arg1[0x4b] = sub_14280cdc0
+arg1[0x4c] = sub_14280cdb0
+arg1[0x4a].d = 0x1f0
+arg1[0x4d] = "DriveGearRatio"
+arg1[0x4f] = sub_14280cde0
+arg1[0x50] = sub_14280cdd0
+arg1[0x4e].d = 0x1f1
+arg1[0x51] = "RevoluteJointFlags"
+arg1[0x53] = sub_14280ce20
+arg1[0x54] = sub_14280cdf0
+arg1[0x52].d = 0x1f2
+arg1[0x55] = "ProjectionLinearTolerance"
+arg1[0x57] = ModQueryTypeMDTokenMap
+arg1[0x58] = sub_14280ce50
+arg1[0x56].d = 0x1f3
+arg1[0x59] = "ProjectionAngularTolerance"
+arg1[0x5b] = ModQueryILLines
+arg1[0x5c] = DBISetMachineType
+arg1[0x5a].d = 0x1f4
+arg1[0x5d] = "ConcreteTypeName"
+arg1[0x5f] = sub_14280ce90
+arg1[0x5e].d = 0x1f5
+return arg1

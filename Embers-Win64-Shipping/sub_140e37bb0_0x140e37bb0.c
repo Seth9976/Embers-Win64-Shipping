@@ -1,0 +1,58 @@
+// 函数: sub_140e37bb0
+// 地址: 0x140e37bb0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t r10 = sx.d(*(arg3 + 0x16))
+int32_t r11 = sx.d(*(arg3 + 0x12))
+int32_t r9 = sx.d(*(arg3 + 0x1a))
+int32_t rdx = sx.d(*(arg3 + 0x36))
+int32_t r15 = sx.d(*(arg3 + 2))
+int32_t rbp = sx.d(*(arg3 + 0xa))
+int32_t r14 = sx.d(*(arg3 + 6))
+int32_t rdi = sx.d(*(arg3 + 4))
+int32_t rsi = sx.d(*(arg3 + 0x44))
+int32_t rax_2 = sx.d(*(arg3 + 0x22))
+int32_t rax_3 = sx.d(*(arg3 + 0x26))
+int32_t rcx_4 = (r11 * 0x3a0 + r9 * 0xda - r10 * 0x145 + 0x200) s>> 0xa
+int32_t rcx_5 = sx.d(*(arg3 + 0x3a))
+int32_t rax_4 = sx.d(*(arg3 + 0x2a))
+int32_t r8 = sx.d(*(arg3 + 0x32))
+int32_t rax_7 = sx.d(*(arg3 + 0x14))
+int32_t rax_8 = sx.d(*(arg3 + 0x24))
+int32_t rax_9 = sx.d(*(arg3 + 0x34))
+int32_t r10_1 = sx.d(*(arg3 + 0x42))
+int32_t r12_4 = (r8 * 0x3a0 + rcx_5 * 0xda - rdx * 0x145 + 0x200) s>> 0xa
+int32_t r9_5 = (r9 * 0x313 + r10 * 0x20e - r11 * 0x4b + 0x200) s>> 0xa
+int32_t r9_6 = sx.d(*(arg3 + 0x46))
+int32_t r8_1 = sx.d(*(arg3 + 0x4a))
+int32_t rcx_10 = (rcx_5 * 0x313 + rdx * 0x20e - r8 * 0x4b + 0x200) s>> 0xa
+*arg1 = (r15 * 0x3a0 + rbp * 0xda - r14 * 0x145 + 0x200) s>> 0xa
+arg1[1] = (rcx_4 * 0x1aa + 0x200 + r12_4 * 0x32a) s>> 0xa
+arg1[2] = (r10_1 * 0x3a0 + r8_1 * 0xda - r9_6 * 0x145 + 0x200) s>> 0xa
+arg1[4] = rdi
+arg1[6] = rsi
+arg1[3] = (rcx_4 * 0x17 - r12_4 * 0x63 + 0x200) s>> 0xa
+arg1[5] = (rax_7 * 0x1aa + rax_9 * 0x32a + 0x200) s>> 0xa
+arg1[7] = (rax_7 * 0x17 - rax_9 * 0x63 + 0x200) s>> 0xa
+arg1[8] = (rbp * 0x313 + r14 * 0x20e - r15 * 0x4b + 0x200) s>> 0xa
+arg1[9] = (r9_5 * 0x1aa + rcx_10 * 0x32a + 0x200) s>> 0xa
+arg1[0xa] = (r8_1 * 0x313 + r9_6 * 0x20e - r10_1 * 0x4b + 0x200) s>> 0xa
+arg1[0xb] = (r9_5 * 0x17 - rcx_10 * 0x63 + 0x200) s>> 0xa
+*(arg1 + 0x30) = 0
+*(arg1 + 0x38) = 0
+arg2[3] = 0
+*arg2 = (rcx_4 * 0x3a0 - r12_4 * 0x145 + 0x200) s>> 0xa
+arg2[1] = (rax_2 * 0x3a0 + rax_4 * 0xda - rax_3 * 0x145 + 0x200) s>> 0xa
+arg2[2] = (r12_4 * 0x20e - rcx_4 * 0x4b + 0x200) s>> 0xa
+arg2[4] = (rax_7 * 0x3a0 - rax_9 * 0x145 + 0x200) s>> 0xa
+arg2[5] = rax_8
+arg2[7] = 0
+*(arg2 + 0x2c) = 0
+arg2[6] = (rax_9 * 0x20e - rax_7 * 0x4b + 0x200) s>> 0xa
+arg2[8] = (r9_5 * 0x3a0 - rcx_10 * 0x145 + 0x200) s>> 0xa
+int32_t result = r9_5 * 0x4b
+arg2[9] = (rax_4 * 0x313 + rax_3 * 0x20e - rax_2 * 0x4b + 0x200) s>> 0xa
+arg2[0xa] = (rcx_10 * 0x20e - result + 0x200) s>> 0xa
+*(arg2 + 0x34) = 0
+arg2[0xf] = 0
+return result

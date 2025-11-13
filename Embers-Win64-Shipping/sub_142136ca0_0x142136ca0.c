@@ -1,0 +1,48 @@
+// 函数: sub_142136ca0
+// 地址: 0x142136ca0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+wchar16* _String = arg2
+
+if (*arg2 == 0)
+    *arg1 = 0
+    int64_t rax
+    rax.b = 0
+    return rax
+
+_wtof(_String)
+int64_t zmm2
+zmm2.d = fconvert.s(arg3)
+*arg1 = zmm2.d
+
+if (not(zmm2.d f!= 0f) && _finite(_mm_cvtps_pd(zmm2)) != 0)
+    wchar16 _C = *_String
+    int64_t rsi
+    rsi.b = 0
+    
+    while (_C != 0)
+        if ((0xfffd & (_C - 0x2b)) != 0 && iswspace(_C) == 0)
+            while (_C != 0)
+                int32_t rax_4 = iswspace(_C)
+                
+                if (rax_4 != 0)
+                    break
+                
+                if (rsi.b != 0 || _C == 0x30)
+                    rsi.b = 1
+                else if (_C != 0x2e)
+                    return rax_4
+                
+                _C = _String[1]
+                _String = &_String[1]
+            
+            break
+        
+        _C = _String[1]
+        _String = &_String[1]
+    
+    return zx.d(rsi.b)
+
+int32_t rax_1
+rax_1.b = 1
+return rax_1

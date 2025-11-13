@@ -1,0 +1,43 @@
+// 函数: sub_141b30590
+// 地址: 0x141b30590
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t rdi = sx.q(*(arg1 + 0x38))
+int64_t rsi = sx.q(arg2)
+uint32_t rdx
+
+if (rdi.d u> 2)
+    int64_t rax_1 = 4
+    
+    if (*(arg1 + 0x3c) != 0 || rdi.d u> 4)
+        rax_1 = ((rdi * 3) u>> 3) + 0x10 + rdi
+    
+    int64_t rax_6
+    int64_t rdx_1
+    rdx_1:rax_6 = mulu.dp.q(-0x5555555555555555, sub_140a846a0(rax_1 * 0x18, 0))
+    rdx = (rdx_1 u>> 4).d
+    
+    if (rdi.d s> rdx)
+        rdx = 0x7fffffff
+else
+    rdx = 2
+
+*(arg1 + 0x3c) = rdx
+int64_t rcx_3 = *(arg1 + 0x30)
+
+if (rdx u> 2)
+    if (rcx_3 == 0)
+        if (rdx != 0)
+            int64_t rax_8 = sub_140a84c80(rcx_3, sx.q(rdx) * 0x18, 0)
+            *(arg1 + 0x30) = rax_8
+            rcx_3 = rax_8
+        
+        return memmove(rcx_3, arg1, (rsi * 0x18).d) __tailcall
+    
+    *(arg1 + 0x30) = sub_140a84c80(rcx_3, sx.q(rdx) * 0x18, 0)
+else if (rcx_3 != 0)
+    memmove(arg1, rcx_3, (rsi * 0x18).d)
+    rcx_3 = *(arg1 + 0x30)
+    
+    if (rcx_3 != 0)
+        *(arg1 + 0x30) = sub_140a84c80(rcx_3, 0, 0)

@@ -1,0 +1,84 @@
+// 函数: sub_1417936e0
+// 地址: 0x1417936e0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t var_50 = 0
+*(*(*arg1 + 0x338) + (sx.q(arg1[1].d) << 2)) = 0
+*(sx.q(arg1[1].d) + *(*arg1 + 0x368)) = *arg2
+int64_t r8_2 = sx.q(arg1[1].d) * 3
+void* rax_4 = *arg1
+int64_t rcx = *(rax_4 + 0x1b8)
+int64_t rdx = *(rax_4 + 0x3f8)
+*(rdx + (r8_2 << 2)) = *(rcx + (r8_2 << 2))
+*(rdx + (r8_2 << 2) + 8) = *(rcx + (r8_2 << 2) + 8)
+int64_t r8_3 = sx.q(arg1[1].d) * 3
+void* rax_7 = *arg1
+int64_t rcx_1 = *(rax_7 + 0x1d0)
+int64_t rdx_1 = *(rax_7 + 0x410)
+*(rdx_1 + (r8_3 << 2)) = *(rcx_1 + (r8_3 << 2))
+*(rdx_1 + (r8_3 << 2) + 8) = *(rcx_1 + (r8_3 << 2) + 8)
+int64_t r8_4 = sx.q(arg1[1].d) * 3
+void* rax_10 = *arg1
+int64_t rcx_2 = *(rax_10 + 0x28)
+int64_t rdx_2 = *(rax_10 + 0x3c8)
+*(rdx_2 + (r8_4 << 2)) = *(rcx_2 + (r8_4 << 2))
+*(rdx_2 + (r8_4 << 2) + 8) = *(rcx_2 + (r8_4 << 2) + 8)
+void* rax_12 = *arg1
+int64_t r8_6 = sx.q(arg1[1].d) * 2
+*(*(rax_12 + 0x3e0) + (r8_6 << 3)) = *(*(rax_12 + 0x68) + (r8_6 << 3))
+int64_t rax_13 = sx.q(arg1[1].d)
+uint128_t zmm0 = _mm_unpacklo_ps(zx.o(0), 0)
+int64_t rdx_4 = rax_13 * 3
+int64_t rcx_4 = *(*arg1 + 0x230)
+int32_t var_50_1 = 0
+*(rcx_4 + (rdx_4 << 2)) = zmm0.q
+*(rcx_4 + (rdx_4 << 2) + 8) = 0
+int64_t rax_15 = sx.q(arg1[1].d)
+zmm0 = _mm_unpacklo_ps(zx.o(0), 0)
+int64_t rdx_5 = rax_15 * 3
+int64_t rcx_5 = *(*arg1 + 0x248)
+int32_t var_50_2 = 0
+*(rcx_5 + (rdx_5 << 2)) = zmm0.q
+*(rcx_5 + (rdx_5 << 2) + 8) = 0
+int64_t rax_17 = sx.q(arg1[1].d)
+zmm0 = _mm_unpacklo_ps(zx.o(0), 0)
+int64_t rdx_6 = rax_17 * 3
+int64_t rcx_6 = *(*arg1 + 0x260)
+int32_t var_50_3 = 0
+*(rcx_6 + (rdx_6 << 2)) = zmm0.q
+*(rcx_6 + (rdx_6 << 2) + 8) = 0
+int64_t rdx_7 = sx.q(arg1[1].d) * 3
+int64_t rcx_7 = *(*arg1 + 0x278)
+char r8_7 = 4
+*(rcx_7 + (rdx_7 << 2)) = (_mm_unpacklo_ps(zx.o(0), 0)).q
+*(rcx_7 + (rdx_7 << 2) + 8) = 0
+int128_t zmm2 = data_142d3f660
+int64_t var_40 = 0
+*(*(*arg1 + 0x2c0) + (sx.q(arg1[1].d) << 2)) = 0x3f800000
+int64_t var_34 = 0x3f800000
+int32_t var_2c = 0
+int64_t var_20 = 0x3f800000
+*(*(*arg1 + 0x2d8) + (sx.q(arg1[1].d) << 2)) = 0x3f800000
+uint128_t* rdx_11 = sx.q(arg1[1].d) << 6
+int64_t rcx_10 = *(*arg1 + 0x290)
+int64_t var_40_1 = 0
+int64_t var_34_1 = 0x3f800000
+*(rdx_11 + rcx_10) = 0x3f800000.o
+*(rdx_11 + rcx_10 + 0x10) = 0.o
+*(rdx_11 + rcx_10 + 0x20) = 0.o
+*(rdx_11 + rcx_10 + 0x30) = zmm2
+uint128_t* rdx_13 = sx.q(arg1[1].d) << 6
+int32_t var_2c_1 = 0
+int64_t rcx_11 = *(*arg1 + 0x2a8)
+int64_t var_20_1 = 0x3f800000
+*(rdx_13 + rcx_11) = 0x3f800000.o
+*(rdx_13 + rcx_11 + 0x10) = 0.o
+*(rdx_13 + rcx_11 + 0x20) = 0.o
+*(rdx_13 + rcx_11 + 0x30) = zmm2
+*(*(*arg1 + 0x2f0) + (sx.q(arg1[1].d) << 2)) = 0
+*(*(*arg1 + 0x308) + (sx.q(arg1[1].d) << 2)) = 0
+
+if (arg2[1] != 0)
+    r8_7 = 1
+
+return sub_14177fa60(*arg1, zx.q(arg1[1].d), r8_7) __tailcall

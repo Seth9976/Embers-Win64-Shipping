@@ -1,0 +1,134 @@
+// 函数: sub_14235f9f0
+// 地址: 0x14235f9f0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t r13
+r13.b = 0
+int32_t rax_1 = arg1[1].d - *(arg1 + 0x34)
+int64_t* r11 = arg4
+int32_t r15 = 1
+int64_t rbx = sx.q(arg3)
+int32_t rdi_1
+
+if (rax_1 == 1)
+    rdi_1 = arg5
+label_14235fb21:
+    int32_t r8_2 = arg1[1].d - *(arg1 + 0x34)
+    
+    if (r8_2 u>= 4)
+        uint32_t rax_5 = r8_2 u>> 1
+        uint64_t rflags_1
+        int32_t temp0_2
+        temp0_2, rflags_1 = _bit_scan_reverse(rax_5 + 8)
+        int32_t rcx_6
+        
+        if (rax_5 == 0xfffffff8)
+            rcx_6 = 0x20
+        else
+            rcx_6 = 0x1f - temp0_2
+        
+        uint64_t rflags_2
+        char temp0_3
+        temp0_3, rflags_2 = _bit_scan_reverse(rax_5 + 7)
+        char r9_1
+        
+        if (rax_5 == 0xfffffff9)
+            r9_1 = 0x20
+        else
+            r9_1 = 0x1f - temp0_3
+        
+        r15 = 1 << ((not.d(rcx_6 << 0x1a s>> 0x1f)).b & (0x20 - r9_1))
+    
+    int32_t rax_8
+    
+    if (r8_2 s> 0)
+        rax_8 = arg1[9].d
+    
+    if (r8_2 s> 0 && (rax_8 == 0 || rax_8 s< r15))
+        arg1[9].d = r15
+        sub_1405c0690(arg1)
+    else
+        void* r9_2 = &arg1[7]
+        int32_t rax_11 = (arg1[9].d - 1) & rbx.d
+        *(r11 + 0x1c) = rax_11
+        void* rdx_6 = *(r9_2 + 8)
+        int64_t r8_3 = sx.q(rax_11)
+        void* rax_12 = r9_2
+        
+        if (rdx_6 != 0)
+            rax_12 = rdx_6
+        
+        r11[3].d = *(rax_12 + (((sx.q(arg1[9].d) - 1) & r8_3) << 2))
+        void* rax_14 = *(r9_2 + 8)
+        
+        if (rax_14 != 0)
+            r9_2 = rax_14
+        
+        *(r9_2 + (((sx.q(arg1[9].d) - 1) & r8_3) << 2)) = rdi_1
+else
+    int32_t rbx_1
+    
+    if (rax_1 != 0)
+        void* r8 = &arg1[7]
+        void* rcx = arg1[8]
+        
+        if (rcx != 0)
+            r8 = rcx
+        
+        rbx_1 = *(r8 + (((sx.q(arg1[9].d) - 1) & rbx) << 2))
+    
+    if (rax_1 == 0 || rbx_1 == 0xffffffff)
+    label_14235fa78:
+        rbx_1 = -1
+    else
+        int64_t rcx_1 = *arg1
+        
+        while (true)
+            int64_t rax_3 = sx.q(rbx_1) << 5
+            
+            if (*(rax_3 + rcx_1) == *arg4)
+                break
+            
+            rbx_1 = *(rax_3 + rcx_1 + 0x18)
+            
+            if (rbx_1 == 0xffffffff)
+                goto label_14235fa78
+    
+    r13.b = rbx_1 != 0xffffffff
+    
+    if (rbx_1 == 0xffffffff)
+        rdi_1 = arg5
+    else
+        void* r14_3 = (sx.q(rbx_1) << 5) + *arg1
+        int32_t i_1 = *(r14_3 + 0x10)
+        int64_t* rdi = *(r14_3 + 8)
+        
+        if (i_1 != 0)
+            int32_t i
+            
+            do
+                sub_1405ae080(rdi)
+                rdi = &rdi[0xa]
+                i = i_1
+                i_1 -= 1
+            while (i != 1)
+            rdi = *(r14_3 + 8)
+        
+        if (rdi != 0)
+            sub_140a74f90(rdi)
+        
+        memmove(r14_3, arg4, 0x18)
+        sub_1405c36f0(arg1, arg5, 1)
+        r11 = arg4
+        rdi_1 = rbx_1
+    
+    if (rbx_1 == 0xffffffff)
+        rbx = zx.q(arg3)
+        goto label_14235fb21
+
+*arg2 = rdi_1
+
+if (arg6 != 0)
+    *arg6 = r13.b
+
+return arg2

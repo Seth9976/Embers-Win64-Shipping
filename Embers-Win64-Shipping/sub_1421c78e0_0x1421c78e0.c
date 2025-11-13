@@ -1,0 +1,31 @@
+// 函数: sub_1421c78e0
+// 地址: 0x1421c78e0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t result = (*(*arg2 + 0x150))(arg2)
+int64_t result_1 = sx.q(result)
+
+if (result != 0)
+    int64_t var_20_1 = 0
+    float var_18
+    result = sub_141fe56b0(arg1 + 0x30, &var_18, *(arg4 + 0xc), arg3, (arg2[3]).d, nullptr)
+    float zmm1 = var_18 * 360f
+    float var_14
+    float zmm2_1 = var_14 * 360f
+    float var_10
+    float zmm3_1 = var_10 * 360f
+    
+    if ((*(arg1 + 0x78) & 1) != 0)
+        zmm1 = zmm1 f* *(result_1 + arg4 + 0x30)
+        zmm2_1 = zmm2_1 f* *(result_1 + arg4 + 0x34)
+        zmm3_1 = zmm3_1 f* *(result_1 + arg4 + 0x38)
+    else
+        zmm1 = zmm1 f+ *(result_1 + arg4 + 0x30)
+        zmm2_1 = zmm2_1 f+ *(result_1 + arg4 + 0x34)
+        zmm3_1 = zmm3_1 f+ *(result_1 + arg4 + 0x38)
+    
+    *(result_1 + arg4 + 0x38) = zmm3_1
+    *(result_1 + arg4 + 0x34) = zmm2_1
+    *(result_1 + arg4 + 0x30) = zmm1
+
+return result

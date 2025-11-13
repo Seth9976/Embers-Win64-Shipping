@@ -1,0 +1,34 @@
+// 函数: sub_141f65970
+// 地址: 0x141f65970
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+float zmm3 = *(arg1 + 0x4d8)
+int64_t zmm0 = (zx.o(0)).q
+float zmm1[0x4] = arg3
+
+if (not(zmm3 != 0f))
+    *arg2 = data_143dbb208
+    arg2[1].d = data_143dbb210
+    return arg2
+
+if (arg5 == 0)
+    int32_t rcx_2 = *(arg1 + 0x410)
+    
+    if (*(arg1 + 0x4e1) == 0)
+        rcx_2 -= 1
+    
+    arg3 = _mm_cvtepi32_ps(zx.o(rcx_2))
+    arg3[0] = arg3[0] / zmm3
+    arg3[0] = arg3[0] * zmm1[0]
+else
+    if (*(arg1 + 0x458) s> 0)
+        zmm0 = *(*(arg1 + 0x450) + sx.q(*(arg1 + 0x458)) * 0x14 - 0x14)
+    
+    zmm1[0] = zmm1[0] / zmm3
+    int32_t arg_8 = 0
+    zmm1[0] = zmm1[0] f* zmm0.d
+    arg3 = sub_141f5bc90(arg1 + 0x450, zmm1, &arg_8)
+
+uint32_t var_18[0x4]
+sub_140adf5d0(sub_141f64de0(arg1, &var_18, arg3, arg4), arg2)
+return arg2

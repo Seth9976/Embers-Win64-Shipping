@@ -1,0 +1,50 @@
+// 函数: sub_1425d11c0
+// 地址: 0x1425d11c0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+void* rdi = *arg1
+int32_t i_1 = arg1[1].d
+
+if (i_1 != 0)
+    void* rbx_1 = rdi + 0x118
+    int32_t i
+    
+    do
+        int64_t rcx = *(rbx_1 + 0x30)
+        
+        if (rcx != 0)
+            sub_140a74f90(rcx)
+        
+        int64_t rcx_1 = *(rbx_1 + 0x20)
+        
+        if (rcx_1 != 0)
+            sub_140a74f90(rcx_1)
+        
+        int64_t rcx_2 = *(rbx_1 + 0x10)
+        
+        if (rcx_2 != 0)
+            sub_140a74f90(rcx_2)
+        
+        sub_1405ded70(rbx_1)
+        int64_t rcx_4 = *(rbx_1 - 0x10)
+        
+        if (rcx_4 != 0)
+            sub_140a74f90(rcx_4)
+        
+        int64_t rcx_5 = *(rbx_1 - 0x20)
+        
+        if (rcx_5 != 0)
+            sub_140a74f90(rcx_5)
+        
+        NMT::~NMT(rdi)
+        rdi += 0x158
+        rbx_1 += 0x158
+        i = i_1
+        i_1 -= 1
+    while (i != 1)
+    rdi = *arg1
+
+if (rdi == 0)
+    return 
+
+return sub_140a74f90(rdi) __tailcall

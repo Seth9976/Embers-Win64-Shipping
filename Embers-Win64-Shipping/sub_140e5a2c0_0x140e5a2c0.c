@@ -1,0 +1,25 @@
+// 函数: sub_140e5a2c0
+// 地址: 0x140e5a2c0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+void var_18
+void* result = &var_18
+
+if (arg2 + 0x78 != &var_18)
+    result = nullptr
+    *(arg2 + 0x78) = 0
+    int64_t* rbx_1 = *(arg2 + 0x80)
+    
+    if (rbx_1 != 0)
+        *(arg2 + 0x80) = 0
+        rbx_1[1].d -= 1
+        
+        if (rbx_1[1].d == 1)
+            result = (**rbx_1)(rbx_1)
+            int32_t temp1_1 = *(rbx_1 + 0xc)
+            *(rbx_1 + 0xc) -= 1
+            
+            if (temp1_1 == 1)
+                return (*(*rbx_1 + 8))(rbx_1, 1)
+
+return result

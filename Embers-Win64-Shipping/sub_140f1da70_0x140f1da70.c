@@ -1,0 +1,81 @@
+// 函数: sub_140f1da70
+// 地址: 0x140f1da70
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+sub_140dddeb0(arg1)
+*arg1 = &data_142ee6ea8
+arg1[0x72].d = 0
+*(arg1 + 0x394) = 0
+arg1[0x73] = 0
+arg1[0x74].d = 0
+arg1[0x75] = 0
+arg1[0x76].d = 0
+arg1[0x77] = 0
+arg1[0x78].d = 0
+arg1[0x79] = 0
+arg1[0x7a].d = 0
+arg1[0x7b] = 0
+arg1[0x7c].d = 0
+__builtin_memset(&arg1[0x7d], 0, 0x30)
+arg1[0x8a].d = 0
+*(arg1 + 0x454) = 0
+arg1[0x8b] = 0
+arg1[0x8c].d = 0
+arg1[0x8d].d = 0
+*(arg1 + 0x46c) = 0
+arg1[0x8e] = 0
+arg1[0x8f].d = 0
+arg1[0x90].d = 0
+*(arg1 + 0x484) = 0
+arg1[0x91] = 0
+arg1[0x92].d = 0
+arg1[0x93].d = 0
+*(arg1 + 0x49c) = 0
+arg1[0x94] = 0
+arg1[0x95].d = 0
+arg1[0x96].d = 0
+*(arg1 + 0x4b4) = 0
+arg1[0x97] = 0
+arg1[0x98].d = 0
+*(arg1 + 0x4cc) = 0
+arg1[0x9a].b = 0
+arg1[0x9b] = 0
+arg1[0x9c].d = 0
+*(arg1 + 0x4ec) = 0
+arg1[0x9e].b = 0
+arg1[0x9f] = 0
+arg1[0xa0].d = 0
+*(arg1 + 0x50c) = 0
+arg1[0xa2].b = 0
+arg1[0xa3] = 0
+arg1[0xa4].d = 0
+*(arg1 + 0x52c) = 0
+arg1[0xa6].b = 0
+arg1[0xa7] = 0
+arg1[0xa8].d = 0
+*(arg1 + 0x54c) = 0
+arg1[0xaa].b = 0
+arg1[0xab] = 0
+arg1[0xac].d = 0
+*(arg1 + 0x56c) = 0
+arg1[0xae].b = 0
+arg1[0xaf] = 0
+arg1[0xb0].d = 0
+arg1[0xb1].w = 0
+arg1[0xb2] = 0
+arg1[0xb3].d = 0
+arg1[0xb4].w = 0
+arg1[0xb5] = 0
+arg1[0xb6].d = 0
+arg1[0xb7].w = 0
+arg1[0xb8] = 0
+arg1[0xb9].d = 0
+arg1[0xba] = 0
+arg1[0xbb].d = 0
+arg1[0xbc] = 0
+arg1[0xbd].d = 0
+arg1[0xbe].d = 0
+*(arg1 + 0x5f4) = 0
+arg1[0xbf] = 0
+arg1[0xc0].d = 0
+return arg1

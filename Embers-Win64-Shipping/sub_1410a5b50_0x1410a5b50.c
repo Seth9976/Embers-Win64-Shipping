@@ -1,0 +1,9 @@
+// 函数: sub_1410a5b50
+// 地址: 0x1410a5b50
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t r8
+r8.b = arg1[2] != 0
+sub_1405d3490(arg2 + 0x2a8, u"SCENE_TEXTURES_DISABLED", r8)
+sub_1405d3490(arg2 + 0x2a8, u"ENABLE_SKY_LIGHT", 1)
+return sub_1410a1040(arg1, arg2) __tailcall

@@ -1,0 +1,5 @@
+// 函数: sub_1417e8390
+// 地址: 0x1417e8390
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return sub_140be5310(sub_1417e5c50(), &data_142fd99b0, 5) __tailcall

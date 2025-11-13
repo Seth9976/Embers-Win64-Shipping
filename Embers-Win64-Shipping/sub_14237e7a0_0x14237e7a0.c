@@ -1,0 +1,67 @@
+// 函数: sub_14237e7a0
+// 地址: 0x14237e7a0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t r8 = 0
+int32_t var_54 = 1
+int32_t var_58 = 0
+int32_t r11 = *(arg2 + 0x58)
+void* r10 = arg2 + 0x40
+void* var_50 = r10
+int32_t var_48 = 0xffffffff
+int32_t r9 = 0
+int64_t var_44 = 0
+
+if (r11 != 0)
+    void* rax_1 = *(r10 + 0x10)
+    
+    if (rax_1 != 0)
+        r10 = rax_1
+    
+    int32_t temp0_1
+    int32_t temp1_1
+    temp0_1:temp1_1 = sx.q(r11 - 1)
+    int32_t rcx = *r10
+    
+    if (rcx != 0)
+    label_14237e82d:
+        int32_t rax_8 = neg.d(rcx) & rcx
+        uint64_t rflags_1
+        int32_t temp0_2
+        temp0_2, rflags_1 = _bit_scan_reverse(rax_8)
+        int32_t var_54_1 = rax_8
+        int32_t rax_9
+        
+        if (rax_8 == 0)
+            rax_9 = 0x20
+        else
+            rax_9 = 0x1f - temp0_2
+        
+        var_44.d = r9 - rax_9 + 0x1f
+        
+        if (r9 - rax_9 + 0x1f s> r11)
+            var_44.d = r11
+    else
+        while (true)
+            int64_t rcx_1 = sx.q(r8)
+            r9 += 0x20
+            r8 += 1
+            var_44:4.d = r9
+            var_58 = r8
+            
+            if (rcx_1.d s>= (temp1_1 + (temp0_1 & 0x1f)) s>> 5)
+                break
+            
+            rcx = *(r10 + (rcx_1 << 2) + 4)
+            int32_t var_48_1 = 0xffffffff
+            
+            if (rcx != 0)
+                goto label_14237e82d
+        
+        var_44.d = r11
+
+int128_t var_20 = 0xffffffff
+*arg1 = (arg2 + 0x30).o
+arg1[1] = var_58.o
+arg1[2].q = _mm_unpackhi_pd(0xffffffff, 0xffffffff)
+return arg1

@@ -1,0 +1,16 @@
+// 函数: sub_1404ef950
+// 地址: 0x1404ef950
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t* rcx = data_143db18d0
+
+if (rcx == 0)
+    sub_140a53c40()
+    rcx = data_143db18d0
+
+int64_t* rax_1 = (*(*rcx + 0x18))(rcx, u"a.AnimNode.LegIK.Enable", 1, u"Toggle LegIK node.", 0)
+data_143f2b9b8 = rax_1
+data_143f2b9b0 = &data_142d3ff18
+int64_t rdx = *rax_1
+data_143f2b9c0 = (*(rdx + 0x58))(rax_1, rdx)
+return atexit(sub_142cf5020) __tailcall

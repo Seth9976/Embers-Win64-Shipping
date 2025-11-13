@@ -1,0 +1,131 @@
+// 函数: sub_141779ac0
+// 地址: 0x141779ac0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*arg1 = *arg13
+arg1[1] = arg13[1]
+arg1[2] = arg13[2]
+arg1[3] = *arg14
+arg1[4] = arg14[1]
+arg1[5] = arg14[2]
+float zmm2[0x4] = *(arg4 + 0xc)
+zmm2[0] = zmm2[0] f* *arg10
+zmm2[0] = zmm2[0] f* arg10[1]
+zmm2[0] = zmm2[0] f* arg10[2]
+arg1[6].q = (_mm_unpacklo_ps(zmm2, zmm2[0].q)).q
+*(arg1 + 0x68) = zmm2[0]
+*(arg1 + 0x6c) = *arg12
+float zmm0[0x4] = arg9
+*(arg1 + 0x74) = arg12[1].d
+zmm0[0] = zmm0[0] f* *(arg4 + 0xc)
+*(arg1 + 0x78) = zmm0[0]
+*(arg1 + 0x7c) = arg11[0]
+sub_141775c80(arg1 + 0x78, arg1 + 0x7c, &arg1[6], arg1 + 0x6c, (*(arg3 + 0x14))[0], 
+    (*(arg3 + 0x18))[0])
+arg1[0x13].q = *arg5
+*(arg1 + 0x138) = arg5[1].d
+*(arg1 + 0x13c) = *arg6
+*(arg1 + 0x144) = arg6[1].d
+arg1[0x15] = *arg7
+arg1[0x16] = *arg8
+float zmm5[0x4] = arg13[1]
+float zmm9[0x4] = *(arg7 + 4)
+uint128_t zmm12 = *(arg7 + 8)
+uint128_t zmm11 = *arg7
+float temp0_1[0x4] = _mm_shuffle_ps(zmm5, zmm5, 0xaa)
+zmm9[0] = zmm9[0] * temp0_1[0]
+float zmm2_1[0x4] = *(arg7 + 0xc)
+float temp0_2[0x4] = _mm_shuffle_ps(zmm5, zmm5, 0x55)
+uint128_t zmm0_1
+zmm0_1.d = zmm12.d f* temp0_2[0]
+float zmm6 = zmm12.d * zmm5[0]
+zmm9[0] = zmm9[0] f- zmm0_1.d
+float zmm4 = zmm11.d * temp0_2[0]
+zmm0_1.d = zmm11.d f* temp0_1[0]
+zmm9[0] = zmm9[0] + zmm9[0]
+zmm6 = zmm6 f- zmm0_1.d
+zmm0_1.d = zmm9.d f* zmm5[0]
+zmm2_1[0] = zmm2_1[0] * zmm9[0]
+zmm4 = zmm4 f- zmm0_1.d
+zmm9[0] = zmm9[0] * zmm9[0]
+zmm6 = zmm6 + zmm6
+zmm0_1 = zmm12
+zmm2_1[0] = zmm2_1[0] + zmm5[0]
+zmm12.d = zmm12.d f* zmm9[0]
+zmm4 = zmm4 + zmm4
+zmm0_1.d = zmm0_1.d f* zmm6
+zmm9[0] = zmm9[0] * zmm4
+zmm9[0] = zmm9[0] f- zmm0_1.d
+zmm0_1.d = zmm11.d f* zmm4
+zmm11.d = zmm11.d f* zmm6
+zmm12.d = zmm12.d f- zmm0_1.d
+zmm9[0] = zmm9[0] + zmm2_1[0]
+zmm2_1[0] = zmm2_1[0] * zmm6
+zmm11.d = zmm11.d f- zmm9[0]
+zmm2_1[0] = zmm2_1[0] * zmm4
+zmm9[0] = zmm9[0] f+ *arg5
+zmm2_1[0] = zmm2_1[0] + temp0_2[0]
+zmm2_1[0] = zmm2_1[0] + temp0_1[0]
+zmm12.d = zmm12.d f+ zmm2_1[0]
+zmm11.d = zmm11.d f+ zmm2_1[0]
+zmm12.d = zmm12.d f+ *(arg5 + 4)
+zmm11.d = zmm11.d f+ arg5[1].d
+arg1[0x17].q = (_mm_unpacklo_ps(zmm9, zmm12.q)).q
+*(arg1 + 0x178) = zmm11.d
+zmm9 = arg14[1]
+float zmm10[0x4] = *(arg8 + 8)
+float zmm1_1[0x4] = *(arg8 + 4)
+zmm11 = *arg8
+zmm4 = zmm10[0]
+float temp0_4[0x4] = _mm_shuffle_ps(zmm9, zmm9, 0xaa)
+float temp0_5[0x4] = _mm_shuffle_ps(zmm9, zmm9, 0x55)
+zmm0_1.d = zmm10.d f* temp0_5[0]
+float zmm3[0x4] = zmm11
+zmm4 = zmm4 * zmm9[0]
+zmm6 = zmm1_1[0] * temp0_4[0] f- zmm0_1.d
+zmm3[0] = zmm3[0] * temp0_5[0]
+zmm0_1.d = zmm11.d f* temp0_4[0]
+zmm6 = zmm6 + zmm6
+zmm4 = zmm4 f- zmm0_1.d
+zmm0_1.d = zmm9.d f* zmm1_1[0]
+zmm3[0] = zmm3[0] f- zmm0_1.d
+zmm4 = zmm4 + zmm4
+zmm10[0] = zmm10[0] * zmm6
+zmm3[0] = zmm3[0] + zmm3[0]
+zmm0_1.d = zmm10.d f* zmm4
+zmm1_1[0] = zmm1_1[0] * zmm3[0]
+zmm1_1[0] = zmm1_1[0] f- zmm0_1.d
+zmm2_1 = *(arg8 + 0xc)
+zmm0_1.d = zmm11.d f* zmm3[0]
+zmm11.d = zmm11.d f* zmm4
+zmm10[0] = zmm10[0] f- zmm0_1.d
+zmm1_1[0] = zmm1_1[0] * zmm6
+zmm0_1.d = zmm2_1.d f* zmm6
+zmm11.d = zmm11.d f- zmm1_1[0]
+zmm2_1[0] = zmm2_1[0] * zmm4
+zmm9[0] = zmm9[0] f+ zmm0_1.d
+zmm2_1[0] = zmm2_1[0] * zmm3[0]
+temp0_5[0] = temp0_5[0] + zmm2_1[0]
+temp0_4[0] = temp0_4[0] + zmm2_1[0]
+zmm1_1[0] = zmm1_1[0] + zmm9[0]
+zmm10[0] = zmm10[0] + temp0_5[0]
+zmm11.d = zmm11.d f+ temp0_4[0]
+zmm1_1[0] = zmm1_1[0] f+ *arg6
+zmm10[0] = zmm10[0] f+ *(arg6 + 4)
+zmm11.d = zmm11.d f+ arg6[1].d
+*(arg1 + 0x17c) = (_mm_unpacklo_ps(zmm1_1, zmm10[0].q)).q
+*(arg1 + 0x184) = zmm11.d
+*(arg1 + 0x98) = 0
+*(arg1 + 0xd8) = 0
+*(arg1 + 0x148) = 0
+
+if (*(arg4 + 0x10) != 2 || *(arg4 + 0x14) != 2 || *(arg4 + 0x18) != 2)
+    zmm0_1 = zx.o(0)
+else
+    zmm0_1 = *(arg3 + 0x1c)
+
+*(arg1 + 0x188) = zmm0_1.d
+*(arg1 + 0x18c) = *(arg3 + 0xc)
+int32_t result = *(arg3 + 0x10)
+arg1[0x19].d = result
+return result

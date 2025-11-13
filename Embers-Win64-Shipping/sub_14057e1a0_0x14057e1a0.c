@@ -1,0 +1,13 @@
+// 函数: sub_14057e1a0
+// 地址: 0x14057e1a0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+data_143f87950 = zx.o(0)
+int128_t result = data_142d3f800
+__builtin_memcpy(&data_143f87960, 
+    "\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\x"
+"00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\x00\x00\x00\x
+        00", 
+    0x30)
+data_143f87990 = result
+return result

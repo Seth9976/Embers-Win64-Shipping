@@ -1,0 +1,16 @@
+// 函数: sub_14222a3b0
+// 地址: 0x14222a3b0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+__builtin_memset(arg1, 0, 0x18)
+*(arg1 + 0x24) &= 0xfc
+*(arg1 + 0x18) = 0x42480000
+*(arg1 + 0x1c) = 0x3f800000
+*(arg1 + 0x34) &= 0xfc
+*(arg1 + 0x28) = 0x42480000
+*(arg1 + 0x2c) = 0x3f800000
+*(arg1 + 0x44) &= 0xfc
+*(arg1 + 0x38) = 0x42480000
+*(arg1 + 0x3c) = 0x3f800000
+*(arg1 + 0x48) &= 0xfe
+return arg1

@@ -1,0 +1,12 @@
+// 函数: sub_142577da0
+// 地址: 0x142577da0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143f6c318
+
+if (result == 0)
+    int32_t var_18_1 = 0xb8faf80e
+    result = sub_140d225c0(sub_1425788f0, sub_1424a5650(), u"PoseDataContainer")
+    data_143f6c318 = result
+
+return result

@@ -1,0 +1,24 @@
+// 函数: sub_1403bb040
+// 地址: 0x1403bb040
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t i_1 = 4
+int32_t temp0[0x4] = _mm_sad_epu8(*arg4, zx.o(0))
+int16_t zmm2[0x8]
+zmm2[0].q = temp0 u>> 0x40
+int32_t result[0x4] = _mm_shufflelo_epi16(
+    _mm_srai_epi16(__paddw_xmmdq_memdq(_mm_add_epi16(temp0, zmm2), data_14427f020), 4), 0)
+int32_t temp0_5[0x4] = _mm_unpacklo_epi64(result, result[0].q)
+result = _mm_packus_epi16(temp0_5, temp0_5)
+int32_t i
+
+do
+    *arg1 = result
+    *(arg1 + arg2) = result
+    *(arg1 + (arg2 << 1)) = result
+    *(arg1 + arg2 * 3) = result
+    arg1 = &(*arg1)[arg2]
+    i = i_1
+    i_1 -= 1
+while (i != 1)
+return result

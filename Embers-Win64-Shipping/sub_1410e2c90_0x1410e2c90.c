@@ -1,0 +1,13 @@
+// 函数: sub_1410e2c90
+// 地址: 0x1410e2c90
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*arg1 = &data_142f15d18
+sub_14198bce0(arg1)
+sub_1405d1550(&arg1[2])
+sub_1419948a0(arg1)
+
+if ((arg2 & 1) != 0)
+    j_sub_140a74f90(arg1)
+
+return arg1

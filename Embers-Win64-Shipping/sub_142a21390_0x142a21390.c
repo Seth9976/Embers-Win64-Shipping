@@ -1,0 +1,19 @@
+// 函数: sub_142a21390
+// 地址: 0x142a21390
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+data_143fed290 = sub_1403bb330
+data_143fed2a0 = sub_1403bb440
+data_143fed2b0 = sub_1403bb5e0
+data_143fed2c0 = sub_1403bb0a0
+data_143fed2d0 = sub_1403bafe0
+data_143fed2e0 = sub_1403bb040
+data_143fed2f0 = sub_1403baf70
+data_143fed298 = sub_1403bb2f0
+data_143fed2a8 = sub_1403bb3f0
+data_143fed2b8 = sub_1403bb570
+data_143fed2c8 = sub_1403baf30
+data_143fed2d8 = sub_1403bae40
+data_143fed2e8 = sub_1403baea0
+data_143fed2f8 = sub_1403badd0
+return sub_142a223c0() __tailcall

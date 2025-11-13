@@ -1,0 +1,24 @@
+// 函数: sub_141d8ddb0
+// 地址: 0x141d8ddb0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+void*** rax = j_sub_140a82f30(0x10)
+void*** rbx = rax
+
+if (rax == 0)
+    rbx = nullptr
+else
+    rbx[1].d = 0x800
+    *rbx = &data_143238518
+
+void*** rax_1 = j_sub_140a82f30(0x18)
+
+if (rax_1 != 0)
+    rax_1[1].d = 1
+    *rax_1 = &data_142e4cf50
+    *(rax_1 + 0xc) = 1
+    rax_1[2] = rbx
+
+*arg2 = rbx
+arg2[1] = rax_1
+return arg2

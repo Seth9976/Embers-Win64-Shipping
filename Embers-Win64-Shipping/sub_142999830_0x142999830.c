@@ -1,0 +1,106 @@
+// 函数: sub_142999830
+// 地址: 0x142999830
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int128_t zmm6
+int128_t var_18 = zmm6
+int128_t* rcx = arg1 - arg2
+float* r8 = arg3 - arg2
+void* result = arg2 + 4
+int64_t i_1 = 8
+int64_t i
+
+do
+    zmm6 = *(result + rcx - 4)
+    float zmm4 = *(result - 4)
+    float zmm5 = *(result + r8 - 4)
+    float zmm2 = zmm4 * 0.715200007f + zmm6.d * 0.212599993f
+    float zmm0 = zmm6.d
+    zmm6.d = zmm6.d f* 0.5f
+    *(result + rcx - 4) = zmm2 + zmm5 * 0.0722000003f
+    zmm6.d = zmm6.d f- zmm4 * 0.4542f
+    zmm6.d = zmm6.d f- zmm5 * 0.0458000004f
+    *(result - 4) = zmm5 * 0.5f - (zmm4 * 0.385399997f + zmm0 * 0.114600003f)
+    zmm5 = *(r8 + result)
+    *(result + r8 - 4) = zmm6.d
+    zmm6 = *(rcx + result)
+    zmm4 = *result
+    zmm2 = zmm4 * 0.715200007f + zmm6.d * 0.212599993f
+    zmm0 = zmm6.d
+    zmm6.d = zmm6.d f* 0.5f
+    *(rcx + result) = zmm2 + zmm5 * 0.0722000003f
+    zmm6.d = zmm6.d f- zmm4 * 0.4542f
+    zmm6.d = zmm6.d f- zmm5 * 0.0458000004f
+    *result = zmm5 * 0.5f - (zmm4 * 0.385399997f + zmm0 * 0.114600003f)
+    zmm5 = *(r8 + result + 4)
+    *(r8 + result) = zmm6.d
+    zmm6 = *(rcx + result + 4)
+    zmm4 = *(result + 4)
+    zmm2 = zmm6.d * 0.212599993f + zmm4 * 0.715200007f
+    zmm0 = zmm6.d
+    zmm6.d = zmm6.d f* 0.5f
+    *(rcx + result + 4) = zmm2 + zmm5 * 0.0722000003f
+    zmm6.d = zmm6.d f- zmm4 * 0.4542f
+    zmm6.d = zmm6.d f- zmm5 * 0.0458000004f
+    *(result + 4) = zmm5 * 0.5f - (zmm4 * 0.385399997f + zmm0 * 0.114600003f)
+    *(r8 + result + 4) = zmm6.d
+    zmm6 = *(rcx + result + 8)
+    zmm4 = *(result + 8)
+    zmm5 = *(r8 + result + 8)
+    zmm2 = zmm6.d * 0.212599993f + zmm4 * 0.715200007f
+    zmm0 = zmm6.d
+    zmm6.d = zmm6.d f* 0.5f
+    *(rcx + result + 8) = zmm2 + zmm5 * 0.0722000003f
+    zmm6.d = zmm6.d f- zmm4 * 0.4542f
+    zmm6.d = zmm6.d f- zmm5 * 0.0458000004f
+    *(result + 8) = zmm5 * 0.5f - (zmm4 * 0.385399997f + zmm0 * 0.114600003f)
+    zmm5 = *(r8 + result + 0xc)
+    *(r8 + result + 8) = zmm6.d
+    zmm6 = *(rcx + result + 0xc)
+    zmm4 = *(result + 0xc)
+    zmm2 = zmm4 * 0.715200007f + zmm6.d * 0.212599993f
+    zmm0 = zmm6.d
+    zmm6.d = zmm6.d f* 0.5f
+    *(rcx + result + 0xc) = zmm2 + zmm5 * 0.0722000003f
+    zmm6.d = zmm6.d f- zmm4 * 0.4542f
+    zmm6.d = zmm6.d f- zmm5 * 0.0458000004f
+    *(result + 0xc) = zmm5 * 0.5f - (zmm4 * 0.385399997f + zmm0 * 0.114600003f)
+    zmm5 = *(r8 + result + 0x10)
+    *(r8 + result + 0xc) = zmm6.d
+    zmm6 = *(rcx + result + 0x10)
+    zmm4 = *(result + 0x10)
+    zmm2 = zmm4 * 0.715200007f + zmm6.d * 0.212599993f
+    zmm0 = zmm6.d
+    zmm6.d = zmm6.d f* 0.5f
+    *(rcx + result + 0x10) = zmm2 + zmm5 * 0.0722000003f
+    zmm6.d = zmm6.d f- zmm4 * 0.4542f
+    zmm6.d = zmm6.d f- zmm5 * 0.0458000004f
+    *(result + 0x10) = zmm5 * 0.5f - (zmm4 * 0.385399997f + zmm0 * 0.114600003f)
+    *(r8 + result + 0x10) = zmm6.d
+    zmm6 = *(rcx + result + 0x14)
+    zmm4 = *(result + 0x14)
+    zmm5 = *(r8 + result + 0x14)
+    zmm2 = zmm4 * 0.715200007f + zmm6.d * 0.212599993f
+    zmm0 = zmm6.d
+    zmm6.d = zmm6.d f* 0.5f
+    *(rcx + result + 0x14) = zmm2 + zmm5 * 0.0722000003f
+    zmm6.d = zmm6.d f- zmm4 * 0.4542f
+    zmm6.d = zmm6.d f- zmm5 * 0.0458000004f
+    *(result + 0x14) = zmm5 * 0.5f - (zmm4 * 0.385399997f + zmm0 * 0.114600003f)
+    zmm5 = *(result + r8 + 0x18)
+    *(r8 + result + 0x14) = zmm6.d
+    zmm6 = *(rcx + result + 0x18)
+    zmm4 = *(result + 0x18)
+    zmm2 = zmm4 * 0.715200007f + zmm6.d * 0.212599993f
+    zmm0 = zmm6.d
+    zmm6.d = zmm6.d f* 0.5f
+    *(rcx + result + 0x18) = zmm2 + zmm5 * 0.0722000003f
+    zmm6.d = zmm6.d f- zmm4 * 0.4542f
+    zmm6.d = zmm6.d f- zmm5 * 0.0458000004f
+    *(result + 0x18) = zmm5 * 0.5f - (zmm4 * 0.385399997f + zmm0 * 0.114600003f)
+    *(result + r8 + 0x18) = zmm6.d
+    result += 0x20
+    i = i_1
+    i_1 -= 1
+while (i != 1)
+return result

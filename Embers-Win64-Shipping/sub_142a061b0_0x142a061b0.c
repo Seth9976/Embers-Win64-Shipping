@@ -1,0 +1,8 @@
+// 函数: sub_142a061b0
+// 地址: 0x142a061b0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t var_18[0x4]
+sub_142a030a0(arg1, arg2, arg3, arg4, arg5, &var_18)
+int32_t rcx = var_18[0]
+return zx.q(*arg5 - ((rcx * rcx) s>> 6))

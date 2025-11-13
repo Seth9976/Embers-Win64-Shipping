@@ -1,0 +1,12 @@
+// 函数: sub_1425b72a0
+// 地址: 0x1425b72a0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143f6f9f0
+
+if (result == 0)
+    int32_t var_18_1 = 0x7be17f81
+    result = sub_140d225c0(sub_1425b7c70, sub_1424a5650(), u"StreamingRenderAssetPrimitiveInfo")
+    data_143f6f9f0 = result
+
+return result

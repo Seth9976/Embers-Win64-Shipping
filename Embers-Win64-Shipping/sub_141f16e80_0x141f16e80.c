@@ -1,0 +1,72 @@
+// 函数: sub_141f16e80
+// 地址: 0x141f16e80
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+if (arg2[1].d != *(arg2 + 0x34))
+    int32_t rax_1 = *(arg2 + 0xc)
+    arg2[1].d = 0
+    
+    if (rax_1 s< 0 && rax_1 != 0)
+        sub_1405a5410(arg2, 0)
+    
+    arg2[6].d = 0xffffffff
+    *(arg2 + 0x34) = 0
+    sub_140774790(&arg2[2])
+    int64_t rcx_2 = sx.q(arg2[9].d)
+    void* rdi_1 = &arg2[7]
+    void* rax_2 = *(rdi_1 + 8)
+    
+    if (rcx_2 s> 0)
+        if (rax_2 != 0)
+            rdi_1 = rax_2
+        
+        __builtin_memset(rdi_1, 0xffffffff, rcx_2 << 2)
+
+int32_t rdi_2 = *(arg1 + 0x2a0)
+
+if (rdi_2 s> arg2[1].d - *(arg2 + 0x34))
+    sub_1409d96c0(arg2, rdi_2)
+    int32_t rax_8
+    
+    if (rdi_2 u< 4)
+        rax_8 = 1
+    else
+        uint32_t rdi_3 = rdi_2 u>> 1
+        uint64_t rflags_1
+        int32_t temp0_2
+        temp0_2, rflags_1 = _bit_scan_reverse(rdi_3 + 8)
+        int32_t rcx_4
+        
+        if (rdi_3 == 0xfffffff8)
+            rcx_4 = 0x20
+        else
+            rcx_4 = 0x1f - temp0_2
+        
+        int32_t rcx_6 = rcx_4 << 0x1a s>> 0x1f
+        uint64_t rflags_2
+        char temp0_3
+        temp0_3, rflags_2 = _bit_scan_reverse(rdi_3 + 7)
+        
+        if (rcx_6 == 0)
+            rax_8 = 1
+        else
+            rax_8 = 1 << ((not.d(rcx_6)).b & (0x20 - (0x1f - temp0_3)))
+    
+    int32_t rcx_9 = arg2[9].d
+    
+    if (rcx_9 == 0 || rcx_9 s< rax_8)
+        arg2[9].d = rax_8
+        sub_1408370c0(arg2)
+
+void* i = *(arg1 + 0x298)
+int32_t* result = sx.q(*(arg1 + 0x2a0))
+
+for (void* rsi_2 = result * 0x8c + i; i != rsi_2; i += 0x8c)
+    result = sub_140d3c6e0(i + 0x74)
+    int32_t* result_1 = result
+    void arg_8
+    
+    if (result != 0)
+        result = sub_140812a70(arg2, &arg_8, &result_1, nullptr)
+
+return result

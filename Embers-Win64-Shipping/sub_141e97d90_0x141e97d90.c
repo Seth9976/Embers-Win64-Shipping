@@ -1,0 +1,11 @@
+// 函数: sub_141e97d90
+// 地址: 0x141e97d90
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t* rcx = *(arg1 + 0x288)
+int64_t rdx = *rcx
+int32_t var_20 = arg5[1].d
+int32_t var_10 = arg4[1].d
+int64_t var_28 = *arg5
+int64_t var_18 = *arg4
+return (*(rdx + 0xa80))(rcx, rdx, arg3, &var_18, &var_28, arg6.d, arg7, arg8, arg9, arg10, arg11)

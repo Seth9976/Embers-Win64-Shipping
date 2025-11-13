@@ -1,0 +1,104 @@
+// 函数: sub_141336f40
+// 地址: 0x141336f40
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+uint128_t zmm1 = *(arg3 + 8)
+int32_t rbx = (*arg4).d
+void* r15 = arg2
+int64_t rdx = zmm1.q
+uint128_t var_88 = *(arg4 + 8)
+uint128_t zmm8
+uint128_t var_68 = zmm8
+int64_t r8 = _mm_bsrli_si128(zmm1, 8).q
+uint32_t rcx_1 = (r8 u>> 0x20).d
+uint32_t rax_3 = (rdx u>> 0x20).d
+uint32_t r12_1 = rcx_1 - rax_3
+uint32_t arg_1c = r12_1
+void*** rcx_4 = (*(arg1 + 0x30) + 7) & 0xfffffffffffffff8
+uint128_t zmm6 = _mm_cvtepi32_ps(zx.o(rcx_1))
+void* rax_4 = &rcx_4[5]
+uint128_t zmm7 = _mm_cvtepi32_ps(zx.o(r8.d))
+zmm8 = _mm_cvtepi32_ps(zx.o(rax_3))
+uint128_t zmm9 = _mm_cvtepi32_ps(zx.o(rdx.d))
+
+if (rax_4 u> *(arg1 + 0x38))
+    zmm6 = sub_140b0e3d0(arg1 + 0x30, 0x30)
+    rcx_4 = (*(arg1 + 0x30) + 7) & 0xfffffffffffffff8
+    rax_4 = &rcx_4[5]
+
+*(arg1 + 0x30) = rax_4
+void** rax_5 = *(arg1 + 8)
+*(arg1 + 0x14) += 1
+*rax_5 = rcx_4
+*(arg1 + 8) = &rcx_4[1]
+rcx_4[1] = 0
+*rcx_4 = &data_142d54998
+rcx_4[2].d = zmm9.d
+*(rcx_4 + 0x14) = zmm8.d
+*(rcx_4 + 0x1c) = zmm7.d
+rcx_4[4].d = zmm6.d
+rcx_4[3].d = 0
+*(rcx_4 + 0x24) = 0x3f800000
+sub_141461130(arg1, arg5)
+int64_t r8_1 = 0
+void* rax_7 = *arg7
+
+if (rax_7 != 0)
+    int64_t rdx_2 = sx.q(*(rax_7 + 0x10c))
+    int64_t* rbp_1 = *(arg7[1] + 0x10)
+    int64_t rax_9 = rbp_1[3]
+    
+    if (*(rax_9 + (rdx_2 << 3)) == 0)
+        sub_1419ccf30(rbp_1, rdx_2.d)
+        rax_9 = rbp_1[3]
+    
+    r8_1 = *(rax_9 + (rdx_2 << 3))
+
+sub_14133ddf0(arg1, arg7, r8_1, arg7[4])
+void* rax_10 = arg7[2]
+int64_t r8_2 = 0
+
+if (rax_10 != 0)
+    int64_t rdx_4 = sx.q(*(rax_10 + 0x10c))
+    int64_t* rbp_2 = *(arg7[3] + 0x10)
+    int64_t rax_12 = rbp_2[3]
+    
+    if (*(rax_12 + (rdx_4 << 3)) == 0)
+        sub_1419ccf30(rbp_2, rdx_4.d)
+        rax_12 = rbp_2[3]
+    
+    r8_2 = *(rax_12 + (rdx_4 << 3))
+    r15 = arg2
+
+sub_14133d830(arg1, &arg7[2], r8_2, arg7[4])
+int64_t* rax_13 = data_143dbb180
+int32_t r11 = 1
+void* rax_14 = (r8.d - rdx.d).q
+void* r9_3
+
+if ((1 & arg6) == 0)
+    r12_1 = rax_13:4.d
+    r9_3 = zx.q(rax_14:4.d)
+else
+    r9_3 = zx.q(neg.d(r12_1))
+    r11 = 0
+
+char r10
+
+if ((arg6 & 2) == 0)
+    r10 = 0
+else
+    r10 = *(r15 + 0x5159)
+
+int32_t r8_3 = var_88:4.d
+int32_t rdx_6 = var_88.d
+uint128_t zmm4 = _mm_cvtepi32_ps(zx.o(r8_3))
+int32_t rcx_18 = *(r15 + 0xad0)
+uint128_t zmm0_1 = _mm_cvtepi32_ps(zx.o(var_88:8.d - rdx_6))
+uint128_t zmm5 = _mm_cvtepi32_ps(zx.o(rdx_6))
+zmm7 = _mm_cvtepi32_ps(zx.o(var_88:0xc.d - r8_3))
+uint128_t zmm6_1 = _mm_cvtepi32_ps(zx.o(r9_3.d))
+float temp0_10[0x4] = _mm_cvtepi32_ps(zx.o(rax_14.d))
+uint128_t zmm2 = _mm_cvtepi32_ps(zx.o(r12_1))
+return sub_141399210(arg1, _mm_cvtepi32_ps(zx.o(rax_13.d)), zmm2, r9_3, temp0_10, var_68, zmm6_1.d, 
+    zmm5.d, zmm4.d, zmm0_1.d, zmm7.d, rax_14.d, rbx, arg5, rcx_18, r10, r11)

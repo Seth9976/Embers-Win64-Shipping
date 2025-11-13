@@ -1,0 +1,5 @@
+// 函数: sub_140504d10
+// 地址: 0x140504d10
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return sub_140b58170(&data_143f35cd0, "CornerSharpness", 1) __tailcall

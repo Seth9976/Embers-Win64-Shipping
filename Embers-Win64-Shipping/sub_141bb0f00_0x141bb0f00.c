@@ -1,0 +1,19 @@
+// 函数: sub_141bb0f00
+// 地址: 0x141bb0f00
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+void* rax = *(arg1 + 0x450)
+
+if (rax != 0)
+    sub_140f76b40(rax, arg2)
+    return arg2
+
+*arg2 = *(arg1 + 0x128)
+void* rax_3 = *(arg1 + 0x130)
+arg2[1] = rax_3
+
+if (rax_3 != 0)
+    *(rax_3 + 8) += 1
+
+arg2[2].d = *(arg1 + 0x138)
+return arg2

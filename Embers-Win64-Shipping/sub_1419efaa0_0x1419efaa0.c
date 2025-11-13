@@ -1,0 +1,35 @@
+// 函数: sub_1419efaa0
+// 地址: 0x1419efaa0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t rcx = arg1[1].d
+
+if (((rcx u>> 4).b & 1) == 0)
+    int64_t* rcx_1 = arg1[0x9f]
+    arg1[0x9f] = 0
+    
+    if (rcx_1 != 0)
+        rcx_1[1].d -= 1
+        
+        if (rcx_1[1].d == 1)
+            (**rcx_1)(rcx_1, 1)
+    
+    rcx = arg1[1].d
+    int64_t var_10_1 = 0
+    *(arg1 + 0x4e8) = 0.o
+
+if (((rcx u>> 4).b & 1) == 0)
+    int64_t* rcx_3 = arg1[0x95]
+    arg1[0x95] = 0
+    
+    if (rcx_3 != 0)
+        rcx_3[1].d -= 1
+        
+        if (rcx_3[1].d == 1)
+            (**rcx_3)(rcx_3, 1)
+    
+    int64_t var_10_2 = 0
+    *(arg1 + 0x440) = 0.o
+    sub_141ef1240(arg1)
+
+return 1

@@ -1,0 +1,158 @@
+// 函数: sub_141b88230
+// 地址: 0x141b88230
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+void var_258
+int64_t rax_1 = __security_cookie ^ &var_258
+int32_t var_170 = 0
+char var_1d8
+int64_t* var_160
+int64_t var_148
+char var_128
+char var_c0
+void var_b8
+int32_t rsi
+char* r13
+
+if (*(arg3 + 0x178) == 0)
+    r13 = sub_14065fb60(&var_b8, arg3 + 0xf0)
+    rsi = 8
+else
+    int64_t var_168
+    arg4 = sub_140a96170(&var_168)
+    int64_t rax_2 = *(arg3 + 0x160)
+    var_1d8 |= 1
+    void* rax_3 = *(arg3 + 0x168)
+    char var_150_1 = 0
+    var_148 = 0
+    int32_t var_140_1 = 0
+    int16_t var_1d7_1 = 0x100
+    
+    if (rax_3 != 0)
+        *(rax_3 + 8) += 1
+    
+    int32_t rax_4 = *(arg3 + 0x170)
+    char rax_5 = *(arg3 + 0x178)
+    int64_t var_1b0 = 0
+    int32_t var_1a8_1 = 0
+    sub_140692f90(&var_1b0, arg3 + 0x180)
+    int64_t rax_6 = var_168
+    
+    if (var_160 != 0)
+        var_160[1].d += 1
+    
+    int64_t var_180 = 0
+    int32_t var_178_1 = 0
+    sub_140692f90(&var_180, &var_148)
+    char rcx_3 = var_128
+    char var_127_1 = var_1d7_1.b
+    char var_126_1 = var_1d7_1:1.b
+    int64_t var_120_1 = rax_2
+    var_128 = rcx_3 ^ ((rcx_3 ^ var_1d8) & 1)
+    void* var_118_1 = rax_3
+    
+    if (rax_3 != 0)
+        *(rax_3 + 8) += 1
+    
+    int32_t var_110_1 = rax_4
+    char var_108_1 = rax_5
+    int64_t var_100 = 0
+    int32_t var_f8_1 = 0
+    sub_1407473e0(&var_100, &var_1b0)
+    int64_t var_f0_1 = rax_6
+    int64_t* var_e8_1 = var_160
+    
+    if (var_160 != 0)
+        var_160[1].d += 1
+    
+    int32_t var_158
+    int32_t var_e0_1 = var_158
+    char var_d8_1 = var_150_1
+    int64_t var_d0 = 0
+    int32_t var_c8_1 = 0
+    sub_1407473e0(&var_d0, &var_180)
+    var_c0 = 1
+    r13 = &var_128
+    rsi = 7
+
+sub_140e23130(*arg1 + 8, arg3, arg3 + 0x30, arg3 + 0x40, arg4, arg3 + 0x60, arg3 + 0x78, 
+    *(arg3 + 0x90), arg3 + 0x98, arg3 + 0xc8, arg3 + 0xe8, *(arg3 + 0x94), *(arg3 + 0x95), 
+    *(arg3 + 0x96), r13, arg3 + 0x190)
+
+if ((rsi.b & 8) != 0)
+    rsi &= 0xfffffff7
+    char var_50
+    
+    if (var_50 != 0)
+        char var_50_1 = 0
+        sub_140ddef20(&var_b8)
+
+if ((rsi.b & 4) != 0)
+    rsi &= 0xfffffffb
+    
+    if (var_c0 != 0)
+        char var_c0_1 = 0
+        sub_140ddef20(&var_128)
+
+if ((rsi.b & 2) != 0)
+    rsi &= 0xfffffffd
+    sub_140ddef20(&var_1d8)
+
+if ((rsi.b & 1) != 0)
+    sub_140745b20(&var_148)
+    
+    if (var_160 != 0)
+        var_160[1].d -= 1
+        
+        if (var_160[1].d == 1)
+            (**var_160)(var_160)
+            int32_t rdi_1 = *(var_160 + 0xc)
+            *(var_160 + 0xc) -= 1
+            
+            if (rdi_1 == 1)
+                (*(*var_160 + 8))(var_160, zx.q(rdi_1))
+
+int64_t* rcx_15 = *arg1[2]
+int64_t* rdi_2 = rcx_15[1]
+void* rsi_1 = *rcx_15
+void* var_138 = rsi_1
+int64_t* var_130 = rdi_2
+
+if (rdi_2 != 0)
+    rdi_2[1].d += 1
+
+int64_t* rbx_2 = *arg1
+sub_141b9e620(rbx_2, arg3, &var_138)
+(*(*rbx_2 + 0x78))(rbx_2, zx.q(*(rsi_1 + 0x398)), arg3 + 0x210, arg3 + 0x240)
+
+if (rdi_2 != 0)
+    rdi_2[1].d -= 1
+    
+    if (rdi_2[1].d == 1)
+        (**rdi_2)(rdi_2)
+        int32_t temp2_1 = *(rdi_2 + 0xc)
+        *(rdi_2 + 0xc) -= 1
+        
+        if (temp2_1 == 1)
+            (*(*rdi_2 + 8))(rdi_2, 1)
+
+void* rbx_3 = *arg1
+char rax_31
+
+if ((*(rbx_3 + 0x30) & 0x20) == 0)
+    rax_31 = (*(*(rbx_3 + 8) + 0x220))(rbx_3 + 8)
+
+if ((*(rbx_3 + 0x30) & 0x20) != 0 || rax_31 != 0)
+    rax_31 = 0x40
+
+*(rbx_3 + 0x30) &= 0xbf
+*(rbx_3 + 0x30) |= rax_31
+*arg2 = *arg1
+void* rcx_22 = arg1[1]
+arg2[1] = rcx_22
+
+if (rcx_22 != 0)
+    *(rcx_22 + 8) += 1
+
+__security_check_cookie(rax_1 ^ &var_258)
+return arg2

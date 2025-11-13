@@ -1,0 +1,17 @@
+// 函数: sub_1419620f0
+// 地址: 0x1419620f0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+memset(arg1, 0, 0x64)
+*(arg1 + 0xe4) = 0
+__builtin_memcpy(arg1 + 0xe8, 
+    "\x10\x00\x00\x00\x00\x01\x00\x00\x01\x00\x0f\x00\x01\x00\x00\x01\x00\x0f\x00\x01\x00\x00\x01\x00\x"
+"0f\x00\x01\x00\x00\x01\x00\x0f\x00\x01\x00\x00\x01\x00\x0f\x00\x01\x00\x00\x01\x00\x0f\x00\x01\x00"
+"00\x01\x00\x0f\x00\x01\x00\x00\x01\x00\x0f", 
+    0x3c)
+*(arg1 + 0x128) = 0
+*(arg1 + 0x130) = 0
+*(arg1 + 0x134) = 0x7000101
+*(arg1 + 0x13c) = 7
+*(arg1 + 0x140) = 0xffff
+return arg1

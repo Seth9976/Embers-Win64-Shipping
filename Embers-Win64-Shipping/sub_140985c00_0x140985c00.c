@@ -1,0 +1,11 @@
+// 函数: sub_140985c00
+// 地址: 0x140985c00
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143ced8d0
+
+if (result != 0)
+    return result
+
+sub_140d1ce90(&data_143ced8d0, &data_14398df40)
+return data_143ced8d0

@@ -1,0 +1,27 @@
+// 函数: sub_142c0a420
+// 地址: 0x142c0a420
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t rcx = *(arg1 + 0x30)
+
+if (rcx != 0)
+    j_sub_140a74f90(rcx)
+
+*(arg1 + 0x28) = 0
+*(arg1 + 0x30) = 0
+int64_t rcx_1 = *(arg1 + 0x88)
+
+if (rcx_1 != 0)
+    j_sub_140a74f90(rcx_1)
+
+*(arg1 + 0x80) = 0
+*(arg1 + 0x88) = 0
+*(arg1 + 0x80) = 0
+*(arg1 + 0x88) = 0
+int64_t rcx_2 = *(arg1 + 0x30)
+
+if (rcx_2 != 0)
+    j_sub_140a74f90(rcx_2)
+
+*(arg1 + 0x28) = 0
+*(arg1 + 0x30) = 0

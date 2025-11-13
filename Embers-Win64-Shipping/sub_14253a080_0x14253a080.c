@@ -1,0 +1,11 @@
+// 函数: sub_14253a080
+// 地址: 0x14253a080
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143f68c50
+
+if (result != 0)
+    return result
+
+sub_140d1c810(&data_143f68c50, &data_1433d4ef0)
+return data_143f68c50

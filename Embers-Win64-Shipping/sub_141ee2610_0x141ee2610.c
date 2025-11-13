@@ -1,0 +1,29 @@
+// 函数: sub_141ee2610
+// 地址: 0x141ee2610
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+arg2[1].d = 0xffffffff
+*(arg2 + 0xc) = 0
+arg2[2] = 0
+*(arg2 + 0x1c) = 0
+arg2[3].d = 0xffffffff
+arg2[4].b = 0
+*arg2 = &data_1430507f0
+sub_141b105d0(arg2)
+void* rax = sub_142494b50()
+
+if (rax != 0)
+    sub_140d3a3a0(&arg2[1], rax)
+    int32_t rcx_2 = *(rax + 0x5c)
+    int32_t rdx_4 = (*(rax + 0x58) - 1 + rcx_2) & not.d(rcx_2 - 1)
+    int32_t rax_3 = 1
+    
+    if (rdx_4 != 0)
+        rax_3 = rdx_4
+    
+    void*** rax_4 = sub_140a82f30(sx.q(rax_3), 0)
+    arg2[2] = rax_4
+    sub_141eb5100(rax_4, arg1)
+    arg2[4].b = 1
+
+return arg2

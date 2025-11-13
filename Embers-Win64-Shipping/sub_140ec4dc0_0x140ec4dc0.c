@@ -1,0 +1,158 @@
+// 函数: sub_140ec4dc0
+// 地址: 0x140ec4dc0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int128_t var_48
+int32_t result = sub_140ed2370(arg1, &var_48, arg2)
+int64_t* r14 = nullptr
+
+if (arg1[0x92].d != 0)
+    int64_t* rcx = arg1[0x91]
+    
+    if (rcx != 0)
+        result = (*(*rcx + 0x28))(rcx)
+        
+        if (result.b != 0)
+            int64_t* rcx_1
+            
+            if (arg1[0x92].d == 0)
+                rcx_1 = nullptr
+            else
+                rcx_1 = arg1[0x91]
+            
+            result = (*(*rcx_1 + 0x48))(rcx_1)
+            arg1[0x90].d = result
+
+int32_t rbp = arg1[0x90].d
+int128_t zmm6
+int128_t var_38 = zmm6
+
+if (rbp == 0)
+    goto label_140ec4fe1
+
+zmm6 = var_48
+var_48 = zmm6
+int64_t* var_40
+
+if (var_40 != 0)
+    var_40[1].d += 1
+
+if (&var_48 != &arg1[0xce])
+    int128_t zmm0_1 = *(arg1 + 0x670)
+    *(arg1 + 0x670) = zmm6
+    var_48 = zmm0_1
+
+if (var_40 != 0)
+    var_40[1].d -= 1
+    
+    if (var_40[1].d == 1)
+        (**var_40)(var_40)
+        int32_t temp3_1 = *(var_40 + 0xc)
+        *(var_40 + 0xc) -= 1
+        
+        if (temp3_1 == 1)
+            (*(*var_40 + 8))(var_40, 1)
+
+int32_t r8_1 = *(arg3 + 0xc)
+
+if (var_40 != 0)
+    var_40[1].d += 1
+
+arg1[0xee].b = 1
+var_48 = zmm6
+
+if (var_40 != 0)
+    var_40[1].d += 1
+
+zmm6 = sub_140ed5b90(arg1, &var_48, r8_1)
+
+if (var_40 != 0)
+    var_40[1].d -= 1
+    
+    if (var_40[1].d == 1)
+        (**var_40)(var_40)
+        int32_t temp5_1 = *(var_40 + 0xc)
+        *(var_40 + 0xc) -= 1
+        
+        if (temp5_1 == 1)
+            (*(*var_40 + 8))(var_40, 1)
+
+if (rbp != 3)
+label_140ec4f1f:
+    
+    if (var_40 != 0)
+        var_40[1].d += 1
+    
+    int64_t r9_1
+    result, r9_1 = sub_140eb8900(&arg1[0xc4], 0)
+    
+    if (arg1[0x92].d != 0)
+        int64_t* rcx_9 = arg1[0x91]
+        
+        if (rcx_9 != 0)
+            result, r9_1 = (*(*rcx_9 + 0x28))(rcx_9)
+            
+            if (result.b != 0)
+                if (arg1[0x92].d != 0)
+                    r14 = arg1[0x91]
+                
+                result, r9_1 = (*(*r14 + 0x48))(r14)
+                arg1[0x90].d = result
+    
+    if (arg1[0x90].d != 0)
+        var_48 = zmm6
+        
+        if (var_40 != 0)
+            var_40[1].d += 1
+        
+        r9_1.b = 1
+        (*(arg1[0x9d] + 0x28))(&arg1[0x9d], &var_48, 1, r9_1)
+        result = (*(arg1[0x9d] + 0x40))(&arg1[0x9d], 1)
+    
+    if (var_40 != 0)
+        var_40[1].d -= 1
+        
+        if (var_40[1].d == 1)
+            result = (**var_40)(var_40)
+            int32_t temp7_1 = *(var_40 + 0xc)
+            *(var_40 + 0xc) -= 1
+            
+            if (temp7_1 == 1)
+                result = (*(*var_40 + 8))(var_40, 1)
+        
+        goto label_140ec4fe1
+else
+    int16_t rax_7 = *(arg3 + 8)
+    int16_t rcx_7 = rax_7 & 0xc
+    
+    if ((rbp.b & rax_7.b) != 0)
+        if (rcx_7 == 0)
+            (*(arg1[0x9d] + 0x30))(&arg1[0x9d])
+        
+        var_48 = zmm6
+        
+        if (var_40 != 0)
+            var_40[1].d += 1
+        
+        (*(arg1[0x9d] + 0x38))(&arg1[0x9d], &var_48)
+        goto label_140ec505a
+    
+    if (rcx_7 == 0)
+        goto label_140ec4f1f
+    
+label_140ec505a:
+    result = (*(arg1[0x9d] + 0x40))(&arg1[0x9d], 1)
+label_140ec4fe1:
+    
+    if (var_40 != 0)
+        var_40[1].d -= 1
+        
+        if (var_40[1].d == 1)
+            result = (**var_40)(var_40)
+            int32_t temp1_1 = *(var_40 + 0xc)
+            *(var_40 + 0xc) -= 1
+            
+            if (temp1_1 == 1)
+                return (*(*var_40 + 8))(var_40, 1)
+
+return result

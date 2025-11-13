@@ -1,0 +1,12 @@
+// 函数: sub_1425698e0
+// 地址: 0x1425698e0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t rbx = *arg1
+char arg_10 = arg2
+char arg_13 = arg3
+char r8
+char arg_11 = r8
+char r9
+char arg_12 = r9
+return (*(rbx + 0x210))(arg1, sub_140d1fd30(arg1, data_143f6b8a8), &arg_10)

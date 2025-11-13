@@ -1,0 +1,20 @@
+// 函数: sub_1429a6580
+// 地址: 0x1429a6580
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+void var_98
+int64_t rax_1 = __security_cookie ^ &var_98
+
+if (arg1 != 0)
+    if (arg1 == 1)
+        __security_check_cookie(rax_1 ^ &var_98)
+        return 2
+    
+    if (arg1 != 2)
+        struct std::exception::Iex_2_3::BaseExc::VTable* exceptionObject
+        sub_14297d3f0(&exceptionObject, "Unknown pixel type.")
+        _CxxThrowException(&exceptionObject, &data_143946538)
+        noreturn
+
+__security_check_cookie(rax_1 ^ &var_98)
+return 4

@@ -1,0 +1,18 @@
+// 函数: sub_14086e890
+// 地址: 0x14086e890
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143ce4a80
+
+if (result == 0)
+    void* rbx_1 = data_143ce4958
+    
+    if (rbx_1 == 0)
+        sub_140d1d210(&data_143ce4958, &data_142de1c98)
+        rbx_1 = data_143ce4958
+    
+    int32_t var_18_1 = 0x44249954
+    result = sub_140d225c0(sub_14086f2c0, rbx_1, u"NiagaraVariableAttributeBinding")
+    data_143ce4a80 = result
+
+return result

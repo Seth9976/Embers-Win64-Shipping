@@ -1,0 +1,34 @@
+// 函数: sub_142a23d80
+// 地址: 0x142a23d80
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+__builtin_memcpy(arg1 + 0x24, 
+    "\x78\x07\x4c\xb0\xd0\x7e\x1c\x36\x67\x30\x0c\x9a\x9b\x8b\x5a\x22\x75\x77\x43\x06\x19\xcc\xf3\x9e\x"
+"0d\x15\x60\x61\x05\x2c\x83\xb0\x8b\x30\x44\x61\x53\x05\x2a\x9c\x6f\x98\x1a\x31\x98\x50\x05\x3a\xb2"
+"4a\x53\x21\x3e\x91\x56\x05\x20\x9a\xc0\xa8\x0e\x16\xa3\x55\x05\x20\x9c\xd8\x94\x13\x1d\x49\x4d\x07"
+"40\x74\x84\x7a\x25\x7e", 
+    0x50)
+*(arg1 + 0x74) = 0x1367c0b56b156578
+*(arg1 + 0x7c) = 0x7d43
+__builtin_memcpy(arg1, 
+    "\x41\x20\x12\x90\xa2\xc2\x29\x33\x62\x84\x44\x12\xa5\xd9\xc4\x2d\x28\x4e\xad\x50\x13\xb0\xf0\xc1\x"
+"40\x23\x2e\xdd\x87\x26\xc2\xf8\x79\x60\x55\x1d", 
+    0x24)
+*(arg1 + 0x76e) = -0x6f6afcdd00db5d15
+*(arg1 + 0x7e) = data_143602dd0
+*(arg1 + 0x8e) = *")SRc25''"
+*(arg1 + 0x9e) = data_143602df0
+*(arg1 + 0x78b) = 0xe1bb6609
+*(arg1 + 0x78f) = 0x6077b7ef
+*(arg1 + 0x793) = 0x29
+*(arg1 + 0x79e) = 0xdd7b7e32
+*(arg1 + 0x7a2) = 0xe2
+*(arg1 + 0x794) = -0x55537171b5b2efdf
+*(arg1 + 0x79c) = 0xf7ee
+*(arg1 + 0x7a3) = -0x67ebf2cbfada77fd
+*(arg1 + 0x7ab) = 0x4264650f
+*(arg1 + 0x7af) = 0x80c0
+*(arg1 + 0x7b1) = 0x40
+__builtin_memcpy(arg1 + 0x776, 
+    "\x02\xad\x22\x07\x91\x55\x07\xa6\x3f\x07\x5e\x42\x08\x40\x2e\x11\x51\x1f\x19\x1d\x1e", 0x15)
+return 0x1e

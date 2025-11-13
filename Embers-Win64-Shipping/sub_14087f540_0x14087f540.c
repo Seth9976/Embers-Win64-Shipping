@@ -1,0 +1,21 @@
+// 函数: sub_14087f540
+// 地址: 0x14087f540
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t* rbx = *(arg2 + 0x70)
+
+if (rbx != 0)
+    rbx[1].d -= 1
+    
+    if (rbx[1].d == 1)
+        (**rbx)(rbx)
+        int32_t temp1_1 = *(rbx + 0xc)
+        *(rbx + 0xc) -= 1
+        
+        if (temp1_1 == 1)
+            (*(*rbx + 8))(rbx, 1)
+
+int64_t rcx_2 = *(arg2 + 0x58)
+
+if (rcx_2 != 0)
+    sub_140a74f90(rcx_2)

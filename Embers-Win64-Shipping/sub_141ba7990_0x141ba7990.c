@@ -1,0 +1,11 @@
+// 函数: sub_141ba7990
+// 地址: 0x141ba7990
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = sub_140d3c6e0(arg1 + 8)
+
+if (result != 0)
+    (*(arg1 + 0x10))(sub_140d3c6e0(arg1 + 8), arg2, zx.q(arg3))
+    result.b = 1
+
+return result

@@ -1,0 +1,42 @@
+// 函数: sub_1419aa710
+// 地址: 0x1419aa710
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+if (arg3 == 0)
+    return 
+
+int32_t i_1 = arg3
+int64_t r15_1 = sx.q(arg2)
+int64_t r12_1 = r15_1 << 3
+int64_t* rdi_2 = *arg1 + r12_1
+int32_t i
+
+do
+    int64_t* rbx_1 = *rdi_2
+    
+    if (rbx_1 != 0)
+        rbx_1[0x1a].d -= 1
+        
+        if (rbx_1[0x1a].d == 1)
+            sub_1405d16e0(rbx_1, nullptr)
+            sub_14081d930(&rbx_1[1], nullptr)
+            sub_1405d16e0(&rbx_1[2], nullptr)
+            sub_141096260(&rbx_1[3], 0)
+            sub_141096040(&rbx_1[0xd], 0)
+    
+    rdi_2 = &rdi_2[1]
+    i = i_1
+    i_1 -= 1
+while (i != 1)
+int32_t rax_1 = arg1[1].d
+int32_t rcx_6 = rax_1 - r15_1.d
+
+if (rcx_6 != arg3)
+    int64_t r9 = *arg1
+    memmove(r9 + r12_1, r9 + (sx.q(r15_1.d + arg3) << 3), (rcx_6 - arg3) << 3)
+    rax_1 = arg1[1].d
+
+arg1[1].d = rax_1 - arg3
+
+if (arg4 != 0)
+    sub_1405c53d0(arg1)

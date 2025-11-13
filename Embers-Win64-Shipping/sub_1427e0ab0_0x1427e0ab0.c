@@ -1,0 +1,35 @@
+// 函数: sub_1427e0ab0
+// 地址: 0x1427e0ab0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+sub_1427d7c60(arg2, arg1 + 0x108)
+sub_1427d4e00(arg2, arg1 + 0x140)
+sub_1427d3f70(arg2, arg1 + 0x160)
+sub_1427d3f70(arg2, arg1 + 0x198)
+sub_1427d7d80(arg2, arg1 + 0x1b8)
+sub_1427d7e20(arg2, arg1 + 0x1d8)
+sub_1427d7ec0(arg2, arg1 + 0x1f8)
+sub_1427d7f60(arg2, arg1 + 0x230)
+sub_1427d8000(arg2, arg1 + 0x250)
+sub_1427d80a0(arg2, arg1 + 0x270)
+sub_1427d8140(arg2, arg1 + 0x2a8)
+sub_1427d81e0(arg2, arg1 + 0x2c8)
+sub_1427d3f70(arg2, arg1 + 0x2e8)
+sub_1427d3f70(arg2, arg1 + 0x308)
+sub_1427d8330(arg2, arg1 + 0x328)
+void var_88
+memset(&var_88, 0, 0x80)
+physx::PxClothStretchConfigGeneratedInfo::PxClothStretchConfigGeneratedInfo(&var_88)
+void* var_98 = &var_88
+sub_1427dac90(arg2, zx.q(arg3 + 0x14), arg1 + 0x348, &data_143b7bcd0)
+sub_1427d84c0(arg2, arg1 + 0x368)
+sub_1427d3f70(arg2, arg1 + 0x388)
+sub_1427d3f70(arg2, arg1 + 0x3a8)
+sub_1427d3f70(arg2, arg1 + 0x3c8)
+sub_1427d3f70(arg2, arg1 + 0x3e8)
+sub_1427d85e0(arg2, arg1 + 0x408)
+sub_1427d3f70(arg2, arg1 + 0x428)
+sub_1427d3f70(arg2, arg1 + 0x448)
+sub_1427d3f70(arg2, arg1 + 0x468)
+sub_1427d3f70(arg2, arg1 + 0x488)
+return zx.q(arg3 + 0x21)

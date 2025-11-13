@@ -1,0 +1,48 @@
+// 函数: sub_140a89440
+// 地址: 0x140a89440
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t r8 = *(arg1 + 0xc)
+int64_t rdx = sx.q(arg1[1].d)
+int32_t r9_1 = r8 - rdx.d
+int64_t result = sx.q(r9_1) << 5
+
+if (result u>= 0x4000)
+label_140a89471:
+    
+    if (r9_1 s> 0x40)
+        if (rdx.d s> 0)
+            int64_t* rcx_1 = data_143ddb3f0
+            int64_t result_1 = rdx << 5
+            
+            if (rcx_1 != 0)
+                result = (*(*rcx_1 + 0x38))(rcx_1, result_1, 0)
+                r8 = *(arg1 + 0xc)
+                result_1 = result
+            
+            rdx = result_1 u>> 5
+    else if (rdx.d != 0)
+        rdx = zx.q(r8)
+else
+    result = zx.q(r8 * 2)
+    
+    if ((rdx * 3).d s< result.d)
+        goto label_140a89471
+    
+    rdx = zx.q(r8)
+
+if (rdx.d != r8)
+    *(arg1 + 0xc) = rdx.d
+    int64_t rsi_1 = *arg1
+    
+    if (rsi_1 != 0 || rdx.d != 0)
+        int64_t* rcx_2 = data_143ddb3f0
+        
+        if (rcx_2 == 0)
+            sub_140a750a0()
+            rcx_2 = data_143ddb3f0
+        
+        result = (*(*rcx_2 + 0x20))(rcx_2, rsi_1, sx.q(rdx.d) << 5, 0)
+        *arg1 = result
+
+return result

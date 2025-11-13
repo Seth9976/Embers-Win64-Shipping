@@ -1,0 +1,28 @@
+// 函数: sub_142576900
+// 地址: 0x142576900
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t i_1 = arg4
+
+if (arg4 != 0)
+    char* rdi_1 = arg3 - arg2
+    void* rbx_1 = arg2 + 8
+    int32_t i
+    
+    do
+        *(rbx_1 - 8) = *(rdi_1 + rbx_1 - 8)
+        *rbx_1 ^= (*(rdi_1 + rbx_1) ^ *rbx_1) & 1
+        char rcx = ((*rbx_1 ^ *(rdi_1 + rbx_1)) & 2) ^ *rbx_1
+        *rbx_1 = rcx
+        char rdx = ((rcx ^ *(rdi_1 + rbx_1)) & 4) ^ rcx
+        *rbx_1 = rdx
+        *rbx_1 = ((rdx ^ *(rdi_1 + rbx_1)) & 8) ^ rdx
+        sub_140627710(rbx_1 + 8, &rdi_1[8] + rbx_1)
+        rbx_1 += 0x28
+        i = i_1
+        i_1 -= 1
+    while (i != 1)
+
+int64_t* result
+result.b = 1
+return result

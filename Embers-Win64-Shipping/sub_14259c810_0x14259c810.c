@@ -1,0 +1,12 @@
+// 函数: sub_14259c810
+// 地址: 0x14259c810
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143f6e490
+
+if (result == 0)
+    int32_t var_18_1 = 0xb4edba9c
+    result = sub_140d225c0(sub_14259cdf0, sub_1424a5650(), u"SmartNameMapping")
+    data_143f6e490 = result
+
+return result

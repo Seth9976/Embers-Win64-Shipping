@@ -1,0 +1,16 @@
+// 函数: sub_140664000
+// 地址: 0x140664000
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143cdcd50
+
+if (result != 0)
+    return result
+
+int32_t var_68_1 = 0x80
+int64_t rbx
+sub_140be0380(/Script/MultiTask", &(*UMultiTaskAsyncTask")[1], &data_143cdcd50, sub_140664500, rbx, 
+    8, 0x10000000, 0, Engine", 
+    pdb_internal::Array<struct TYPTYPE* __ptr64>::~Array<struct TYPTYPE* __ptr64>, sub_140592360, 
+    sub_140594850, j_sub_14247be10, j_sub_140d41340, 0, 0)
+return data_143cdcd50

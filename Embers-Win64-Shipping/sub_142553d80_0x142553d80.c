@@ -1,0 +1,11 @@
+// 函数: sub_142553d80
+// 地址: 0x142553d80
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143f6a750
+
+if (result != 0)
+    return result
+
+sub_140d1c810(&data_143f6a750, &data_1433ef090)
+return data_143f6a750

@@ -1,0 +1,31 @@
+// 函数: sub_1418427e0
+// 地址: 0x1418427e0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+bool z
+
+if (0 == *(arg1 + 0x144))
+    *(arg1 + 0x144) = 0
+    z = true
+else
+    *(arg1 + 0x144)
+    z = false
+
+uint64_t result
+
+if (z)
+    bool z_1
+    
+    if (0 == *(arg1 + 0x148))
+        *(arg1 + 0x148) = 0
+        z_1 = true
+    else
+        *(arg1 + 0x148)
+        z_1 = false
+    
+    if (not(z_1))
+        result.b = 1
+        return result
+
+result.b = 0
+return result

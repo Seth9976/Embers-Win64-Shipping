@@ -1,0 +1,5 @@
+// 函数: sub_140568c70
+// 地址: 0x140568c70
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return sub_140d314c0(sub_14259c8d0, u"/Script/Engine", u"SoundAttenuationSettings", 0, nullptr)

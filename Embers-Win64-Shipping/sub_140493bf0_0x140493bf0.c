@@ -1,0 +1,12 @@
+// 函数: sub_140493bf0
+// 地址: 0x140493bf0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+sub_1412cec80()
+int64_t var_18 = 0
+sub_1419c2be0(&data_143e9f1d0, 2, &data_143e9f2c8, 
+    TMobileBasePassPSFMobileMovableDirectionalLightCSMAndSHIndirectPolicy3HDRLinear64Skylight", 
+    /Engine/Private/MobileBasePassPixelShader.usf", 0x42f0a938, 3, 1, sub_141263930, sub_141262ba0, 
+    sub_141279720, j_sub_1412a6670, 0x405948d0, 0x198)
+data_143e9f1d0 = &data_142d54980
+return atexit(sub_142cd9460) __tailcall

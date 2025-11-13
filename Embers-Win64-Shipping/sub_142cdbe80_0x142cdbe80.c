@@ -1,0 +1,5 @@
+// 函数: sub_142cdbe80
+// 地址: 0x142cdbe80
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+return sub_1419c34e0(&data_143eb87a0) __tailcall

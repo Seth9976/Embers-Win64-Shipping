@@ -1,0 +1,80 @@
+// 函数: sub_1426e12b0
+// 地址: 0x1426e12b0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int16_t* var_38 = nullptr
+int32_t var_30 = 0
+sub_1405947f0(&var_38, 8)
+int32_t rsi = var_30 + 8
+
+if (rsi s> 0)
+    sub_140594770(&var_38)
+
+int16_t* rdi = var_38
+sub_1405a7220(rdi, 8, "invalid", 8, 0x3f)
+void* const rbx_1
+
+if (*(arg1 + 0x88) == 0)
+    rbx_1 = nullptr
+else
+    void* rax_1 = sub_14272ef20()
+    
+    if (rax_1 == 0)
+        rbx_1 = nullptr
+    else
+        rbx_1 = *(arg1 + 0x88)
+        int64_t rax_2 = sx.q(*(rax_1 + 0x38))
+        
+        if (rax_2.d s> *(rbx_1 + 0x38) || *(*(rbx_1 + 0x30) + (rax_2 << 3)) != rax_1 + 0x30)
+            rbx_1 = nullptr
+
+int64_t rax_4 = sub_14272e650()
+int64_t rax_8
+void* const rbx_2
+
+if (rbx_1 != rax_4)
+    if (*(arg1 + 0x88) == 0)
+        rbx_2 = nullptr
+    else
+        void* rax_5 = sub_14272ef20()
+        
+        if (rax_5 == 0)
+            rbx_2 = nullptr
+        else
+            rbx_2 = *(arg1 + 0x88)
+            int64_t rax_6 = sx.q(*(rax_5 + 0x38))
+            
+            if (rax_6.d s> *(rbx_2 + 0x38) || *(*(rbx_2 + 0x30) + (rax_6 << 3)) != rax_5 + 0x30)
+                rbx_2 = nullptr
+    
+    rax_8 = sub_14272e8c0()
+
+if (rbx_1 == rax_4 || rbx_2 == rax_8)
+    int64_t var_28
+    int64_t* rax_9 = sub_140b63b70(arg1 + 0x80, &var_28)
+    
+    if (&var_38 != rax_9)
+        if (rdi != 0)
+            sub_140a74f90(rdi)
+        
+        rdi = *rax_9
+        *rax_9 = 0
+        rsi = rax_9[1].d
+        rax_9[1] = 0
+    
+    int64_t rcx_7 = var_28
+    
+    if (rcx_7 != 0)
+        sub_140a74f90(rcx_7)
+
+int16_t* const r8 = &data_142d40450
+
+if (rsi != 0)
+    r8 = rdi
+
+sub_140a2e390(arg2, u"Set default focus to %s", r8)
+
+if (rdi != 0)
+    sub_140a74f90(rdi)
+
+return arg2

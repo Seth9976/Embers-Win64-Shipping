@@ -1,0 +1,83 @@
+// 函数: sub_140e77b20
+// 地址: 0x140e77b20
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*(arg1 + 0x40) = *arg2
+int32_t result = arg2[1]
+*(arg1 + 0x44) = result
+
+if (arg1 + 0x48 != &arg2[2])
+    void* rbx_1 = *(arg1 + 0x48)
+    int32_t i_3 = *(arg1 + 0x50)
+    
+    if (i_3 != 0)
+        int32_t i
+        
+        do
+            int64_t rcx = *(rbx_1 + 0x10)
+            
+            if (rcx != 0)
+                result = sub_140a74f90(rcx)
+            
+            int64_t rcx_1 = *rbx_1
+            
+            if (rcx_1 != 0)
+                result = sub_140a74f90(rcx_1)
+            
+            rbx_1 += 0x50
+            i = i_3
+            i_3 -= 1
+        while (i != 1)
+    
+    int32_t i_2 = arg2[4]
+    void* rbx_2 = *(arg2 + 8)
+    int32_t r8_1 = *(arg1 + 0x54)
+    *(arg1 + 0x50) = i_2
+    
+    if (i_2 != 0 || r8_1 != 0)
+        result = sub_140808ed0(arg1 + 0x48, i_2, r8_1)
+        void* rdi_1 = *(arg1 + 0x48)
+        
+        if (i_2 != 0)
+            int32_t* rbx_3 = rbx_2 + 0x20
+            int32_t i_1
+            
+            do
+                sub_140596d10(rdi_1, &rbx_3[-8])
+                sub_140596d10(rdi_1 + 0x10, &rbx_3[-4])
+                int32_t rax_1 = *rbx_3
+                rbx_3 = &rbx_3[0x14]
+                *(rdi_1 + 0x20) = rax_1
+                *(rdi_1 + 0x24) = rbx_3[-0x13]
+                *(rdi_1 + 0x28) = *(rbx_3 - 0x48)
+                *(rdi_1 + 0x38) = *(rbx_3 - 0x38)
+                *(rdi_1 + 0x48) = rbx_3[-0xa].b
+                result = rbx_3[-9]
+                *(rdi_1 + 0x4c) = result
+                rdi_1 += 0x50
+                i_1 = i_2
+                i_2 -= 1
+            while (i_1 != 1)
+    else
+        *(arg1 + 0x54) = i_2
+
+*(arg1 + 0x58) = *(arg2 + 0x18)
+*(arg1 + 0x68) = *(arg2 + 0x28)
+*(arg1 + 0x80) = *(arg2 + 0x40)
+*(arg1 + 0x90) = *(arg2 + 0x50)
+*(arg1 + 0xa0) = sub_140d7aec0().d
+uint128_t zmm0_1 = zx.o(arg2[0xb])
+uint128_t zmm1 = zx.o(arg2[0xc])
+uint128_t zmm2 = zx.o(arg2[0xd])
+uint128_t zmm3 = _mm_cvtepi32_ps(zx.o(arg2[0xa]))
+zmm0_1 = _mm_cvtepi32_ps(zmm0_1)
+_mm_shuffle_ps(zmm3, zmm3, 0xe1)
+zmm3.d = zmm0_1.d
+_mm_shuffle_ps(zmm3, zmm3, 0xc6)
+zmm1 = _mm_cvtepi32_ps(zmm1)
+zmm2 = _mm_cvtepi32_ps(zmm2)
+zmm3.d = zmm1.d
+_mm_shuffle_ps(zmm3, zmm3, 0x27)
+zmm3.d = zmm2.d
+*(arg1 + 0x488) = _mm_shuffle_ps(zmm3, zmm3, 0x39)
+return result

@@ -1,0 +1,47 @@
+// 函数: sub_1414c0a70
+// 地址: 0x1414c0a70
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+char rcx = sub_1419925c0(arg1, arg2)
+__builtin_memset(arg1 + 0x118, 0, 0x30)
+*(arg1 + 0x148) = 0xffff
+__builtin_memset(arg1 + 0x150, 0, 0x74)
+__builtin_memset(arg1 + 0x1c4, 0, 0x3e)
+sub_1414ccc30(rcx)
+sub_1419c7610(arg1, arg1, *(arg2 + 0x5c), arg2[3], &data_143eed6e0, 0)
+sub_1419c7530(arg1 + 0x118, arg2[3], u"LocalShadowedLightScattering", 0)
+sub_1419c7530(arg1 + 0x11c, arg2[3], u"LightScatteringHistory", 0)
+sub_1419c7530(arg1 + 0x120, arg2[3], u"LightScatteringHistorySampler", 0)
+sub_1414c3c80(arg1 + 0x124, arg2[3])
+sub_1419c6ab0(arg1 + 0x168, arg2[3], u"DirectionalLightFunctionWorldToShadow", 0)
+sub_1419c7530(arg1 + 0x16e, arg2[3], u"LightFunctionTexture", 0)
+sub_1419c7530(arg1 + 0x172, arg2[3], u"LightFunctionSampler", 0)
+sub_1419c6ab0(arg1 + 0x176, arg2[3], u"StaticLightingScatteringIntensity", 0)
+sub_1419c6ab0(arg1 + 0x17c, arg2[3], u"SkyLightUseStaticShadowing", 0)
+sub_1419c6ab0(arg1 + 0x182, arg2[3], u"SkyLightVolumetricScatteringIntensity", 0)
+sub_1419c6ab0(arg1 + 0x188, arg2[3], u"SkySH", 0)
+sub_1419c6ab0(arg1 + 0x18e, arg2[3], u"PhaseG", 0)
+sub_1419c6ab0(arg1 + 0x194, arg2[3], u"InverseSquaredLightDistanceBiasScale", 0)
+sub_1419c6ab0(arg1 + 0x19a, arg2[3], u"UseHeightFogColors", 0)
+sub_1419c6ab0(arg1 + 0x1a0, arg2[3], u"UseDirectionalLightShadowing", 0)
+int64_t* rbx_1 = arg2[3]
+sub_1419c6ab0(arg1 + 0x1a6, rbx_1, u"AOObjectMaxDistance", 0)
+sub_1419c6ab0(arg1 + 0x1ac, rbx_1, u"AOStepScale", 0)
+sub_1419c6ab0(arg1 + 0x1b2, rbx_1, u"AOStepExponentScale", 0)
+sub_1419c6ab0(arg1 + 0x1b8, rbx_1, u"AOMaxViewDistance", 0)
+sub_1419c6ab0(arg1 + 0x1be, rbx_1, u"AOGlobalMaxOcclusionDistance", 0)
+int64_t* rbx_2 = arg2[3]
+sub_1419c7530(arg1 + 0x1c4, rbx_2, u"GlobalDistanceFieldTexture0", 0)
+sub_1419c7530(arg1 + 0x1c8, rbx_2, u"GlobalDistanceFieldTexture1", 0)
+sub_1419c7530(arg1 + 0x1cc, rbx_2, u"GlobalDistanceFieldTexture2", 0)
+sub_1419c7530(arg1 + 0x1d0, rbx_2, u"GlobalDistanceFieldTexture3", 0)
+sub_1419c7530(arg1 + 0x1d4, rbx_2, u"GlobalDistanceFieldSampler0", 0)
+sub_1419c7530(arg1 + 0x1d8, rbx_2, u"GlobalDistanceFieldSampler1", 0)
+sub_1419c7530(arg1 + 0x1dc, rbx_2, u"GlobalDistanceFieldSampler2", 0)
+sub_1419c7530(arg1 + 0x1e0, rbx_2, u"GlobalDistanceFieldSampler3", 0)
+sub_1419c6ab0(arg1 + 0x1e4, rbx_2, u"GlobalVolumeCenterAndExtent", 0)
+sub_1419c6ab0(arg1 + 0x1ea, rbx_2, u"GlobalVolumeWorldToUVAddAndMul", 0)
+sub_1419c6ab0(arg1 + 0x1f0, rbx_2, u"GlobalVolumeDimension", 0)
+sub_1419c6ab0(arg1 + 0x1f6, rbx_2, u"GlobalVolumeTexelSize", 0)
+sub_1419c6ab0(arg1 + 0x1fc, rbx_2, u"MaxGlobalDistance", 0)
+return arg1

@@ -1,0 +1,95 @@
+// 函数: sub_140e395d0
+// 地址: 0x140e395d0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int32_t r13 = sx.d(*(arg3 + 0x52))
+int32_t rbp = sx.d(*(arg3 + 0x1e))
+int32_t rsi = sx.d(*(arg3 + 0x1a))
+int32_t r12 = sx.d(*(arg3 + 0x16))
+int32_t rdi = sx.d(*(arg3 + 0x3e))
+int32_t rbx = sx.d(*(arg3 + 0x3a))
+int32_t r15 = sx.d(*(arg3 + 0x36))
+int32_t r10 = sx.d(*(arg3 + 0x5e))
+int32_t r9 = sx.d(*(arg3 + 0x5a))
+int32_t r14 = sx.d(*(arg3 + 0x56))
+int32_t r11 = sx.d(*(arg3 + 0x72))
+int32_t r8 = sx.d(*(arg3 + 0x76))
+int32_t rcx_5 =
+    (sx.d(*(arg3 + 0x12)) * 0x3a0 - rbp * 0xb8 + rsi * 0xda - r12 * 0x145 + 0x200) s>> 0xa
+int32_t rax_8 = sx.d(*(arg3 + 0x4e))
+int32_t rcx_11 =
+    (sx.d(*(arg3 + 0x32)) * 0x3a0 - rdi * 0xb8 + rbx * 0xda - r15 * 0x145 + 0x200) s>> 0xa
+int32_t rax_12 = sx.d(*(arg3 + 0x62))
+int32_t rax_13 = sx.d(*(arg3 + 0x66))
+int32_t rax_14 = sx.d(*(arg3 + 0x6a))
+int32_t rax_15 = sx.d(*(arg3 + 0x6e))
+int32_t rcx_17 = (r13 * 0x3a0 - r10 * 0xb8 + r9 * 0xda - r14 * 0x145 + 0x200) s>> 0xa
+int32_t rcx_18 = sx.d(*(arg3 + 0x7a))
+int32_t rdx_1 = sx.d(*(arg3 + 0x7e))
+int32_t r13_6 = (r11 * 0x3a0 - rdx_1 * 0xb8 + rcx_18 * 0xda - r8 * 0x145 + 0x200) s>> 0xa
+int32_t rax_20 = sx.d(*(arg3 + 4))
+int32_t r13_7 = sx.d(*(arg3 + 0x14))
+int32_t r13_8 = sx.d(*(arg3 + 0x24))
+int32_t r13_9 = sx.d(*(arg3 + 0x34))
+int32_t rax_22 = sx.d(*(arg3 + 0x44))
+int32_t r13_10 = sx.d(*(arg3 + 0x54))
+int32_t r13_11 = sx.d(*(arg3 + 0x64))
+int32_t r13_12 = sx.d(*(arg3 + 0x74))
+int32_t rax_24 = sx.d(*(arg3 + 2))
+int32_t rax_26 = sx.d(*(arg3 + 6))
+int32_t rax_28 = sx.d(*(arg3 + 0xa))
+int32_t rax_29 = sx.d(*(arg3 + 0xe))
+int32_t rax_34 = sx.d(*(arg3 + 0x22))
+int32_t rax_35 = sx.d(*(arg3 + 0x26))
+int32_t rax_36 = sx.d(*(arg3 + 0x2a))
+int32_t rax_37 = sx.d(*(arg3 + 0x2e))
+int32_t rdi_1 = sx.d(*(arg3 + 0x46))
+void* arg_18
+arg_18.d = (rsi * 0x313 - rbp * 0x17f + r12 * 0x20e - sx.d(*(arg3 + 0x12)) * 0x4b + 0x200) s>> 0xa
+int32_t rsi_7 = sx.d(*(arg3 + 0x42))
+int32_t rbx_6 =
+    (rbx * 0x313 - rdi * 0x17f + r15 * 0x20e - sx.d(*(arg3 + 0x32)) * 0x4b + 0x200) s>> 0xa
+int32_t rbx_7 = sx.d(*(arg3 + 0x4a))
+int32_t rdx_2 = sx.d(*(arg3 + 0xc))
+int32_t r9_6 = (r9 * 0x313 - r10 * 0x17f + r14 * 0x20e - r13 * 0x4b + 0x200) s>> 0xa
+int32_t r8_1 = sx.d(*(arg3 + 0x4c))
+int32_t rax_48 = sx.d(*(arg3 + 0x1c))
+int32_t rax_49 = sx.d(*(arg3 + 0x2c))
+int32_t rax_50 = sx.d(*(arg3 + 0x3c))
+int32_t rax_51 = sx.d(*(arg3 + 0x5c))
+int32_t result = sx.d(*(arg3 + 0x6c))
+int32_t r12_6 = (rcx_18 * 0x313 - rdx_1 * 0x17f + r8 * 0x20e - r11 * 0x4b + 0x200) s>> 0xa
+int32_t rax_52 = sx.d(*(arg3 + 0x7c))
+*arg1 = (rax_24 * 0x3a0 - rax_29 * 0xb8 + rax_28 * 0xda - rax_26 * 0x145 + 0x200) s>> 0xa
+arg1[1] = (rcx_11 * 0x32a + rcx_5 * 0x1aa - rcx_17 * 0x168 + r13_6 * 0x11c + 0x200) s>> 0xa
+arg1[2] = (rsi_7 * 0x3a0 - rax_8 * 0xb8 + rbx_7 * 0xda - rdi_1 * 0x145 + 0x200) s>> 0xa
+arg1[3] = (r13_6 * 0x377 + rcx_17 * 0x1f6 - rcx_11 * 0x63 + rcx_5 * 0x17 + 0x200) s>> 0xa
+arg1[4] = rax_20
+arg1[5] = (r13_9 * 0x32a + r13_7 * 0x1aa - r13_10 * 0x168 + r13_12 * 0x11c + 0x200) s>> 0xa
+arg1[6] = rax_22
+arg1[7] = (r13_12 * 0x377 + r13_10 * 0x1f6 - r13_9 * 0x63 + r13_7 * 0x17 + 0x200) s>> 0xa
+arg1[8] = (rax_28 * 0x313 - rax_29 * 0x17f + rax_26 * 0x20e - rax_24 * 0x4b + 0x200) s>> 0xa
+arg1[0xc] = rdx_2
+arg1[0xe] = r8_1
+arg1[9] = (rbx_6 * 0x32a + arg_18.d * 0x1aa - r9_6 * 0x168 + r12_6 * 0x11c + 0x200) s>> 0xa
+arg1[0xa] = (rbx_7 * 0x313 - rax_8 * 0x17f + rdi_1 * 0x20e - rsi_7 * 0x4b + 0x200) s>> 0xa
+arg1[0xb] = (r12_6 * 0x377 + r9_6 * 0x1f6 - rbx_6 * 0x63 + arg_18.d * 0x17 + 0x200) s>> 0xa
+arg1[0xd] = (rax_52 * 0x11c - rax_51 * 0x168 + rax_50 * 0x32a + rax_48 * 0x1aa + 0x200) s>> 0xa
+arg1[0xf] = (rax_52 * 0x377 + rax_51 * 0x1f6 - rax_50 * 0x63 + rax_48 * 0x17 + 0x200) s>> 0xa
+*arg2 = (rcx_5 * 0x3a0 - rcx_11 * 0x145 + rcx_17 * 0xda - r13_6 * 0xb8 + 0x200) s>> 0xa
+arg2[1] = (rax_34 * 0x3a0 - rax_37 * 0xb8 + rax_36 * 0xda - rax_35 * 0x145 + 0x200) s>> 0xa
+arg2[2] = (rcx_17 * 0x313 + rcx_11 * 0x20e - r13_6 * 0x17f - rcx_5 * 0x4b + 0x200) s>> 0xa
+arg2[3] = (rax_12 * 0x3a0 - rax_15 * 0xb8 + rax_14 * 0xda - rax_13 * 0x145 + 0x200) s>> 0xa
+arg2[4] = (r13_7 * 0x3a0 - r13_9 * 0x145 + r13_10 * 0xda - r13_12 * 0xb8 + 0x200) s>> 0xa
+arg2[5] = r13_8
+arg2[7] = r13_11
+arg2[6] = (r13_10 * 0x313 + r13_9 * 0x20e - r13_12 * 0x17f - r13_7 * 0x4b + 0x200) s>> 0xa
+arg2[8] = (arg_18.d * 0x3a0 - rbx_6 * 0x145 + r9_6 * 0xda - r12_6 * 0xb8 + 0x200) s>> 0xa
+arg2[9] = (rax_36 * 0x313 - rax_37 * 0x17f + rax_35 * 0x20e - rax_34 * 0x4b + 0x200) s>> 0xa
+arg2[0xa] = (r9_6 * 0x313 + rbx_6 * 0x20e - r12_6 * 0x17f - arg_18.d * 0x4b + 0x200) s>> 0xa
+arg2[0xb] = (rax_14 * 0x313 - rax_15 * 0x17f + rax_13 * 0x20e - rax_12 * 0x4b + 0x200) s>> 0xa
+arg2[0xd] = rax_49
+arg2[0xc] = (rax_51 * 0xda - rax_52 * 0xb8 + rax_48 * 0x3a0 - rax_50 * 0x145 + 0x200) s>> 0xa
+arg2[0xf] = result
+arg2[0xe] = (rax_51 * 0x313 - rax_52 * 0x17f + rax_50 * 0x20e - rax_48 * 0x4b + 0x200) s>> 0xa
+return result

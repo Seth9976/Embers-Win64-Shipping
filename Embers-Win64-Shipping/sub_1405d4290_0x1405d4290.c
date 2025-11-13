@@ -1,0 +1,18 @@
+// 函数: sub_1405d4290
+// 地址: 0x1405d4290
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t result = data_143cd6f88
+
+if (result == 0)
+    void* rbx_1 = data_143cd6f80
+    
+    if (rbx_1 == 0)
+        sub_140d1d210(&data_143cd6f80, &data_142d54fa0)
+        rbx_1 = data_143cd6f80
+    
+    int32_t var_18_1 = 0x16ab36b9
+    result = sub_140d225c0(sub_1405d4310, rbx_1, u"LensDistortionCameraModel")
+    data_143cd6f88 = result
+
+return result

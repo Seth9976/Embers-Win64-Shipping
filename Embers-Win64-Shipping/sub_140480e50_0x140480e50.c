@@ -1,0 +1,12 @@
+// 函数: sub_140480e50
+// 地址: 0x140480e50
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+sub_14118fce0(arg1)
+sub_1411a3f90()
+void* var_18 = &data_143e6e290
+sub_1419c2be0(&data_143e6a9c0, 0, &data_143e6e330, FShaderDrawDebugCopyCS", 
+    /Engine/Private/ShaderDrawDebug.usf", 0x42f23490, 5, 2, sub_1405e13f0, sub_1411871b0, 
+    sub_141192950, sub_14119c590, 0x405948d0, 0x118)
+data_143e6a9c0 = &data_142d54980
+return atexit(sub_142cd3980) __tailcall

@@ -1,0 +1,35 @@
+// 函数: sub_140b61250
+// 地址: 0x140b61250
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+uint64_t rsi_1 = zx.q((arg2 + 0x1f) u>> 5)
+uint32_t rbx_2 = (*(arg1 + 0x4c) + 0x1f) u>> 5
+void* rdi = arg1
+int64_t rcx = *(arg1 + 0x40)
+
+if (rbx_2 u> 0x10)
+    if (rcx != 0)
+        *(rdi + 0x40) = sub_140a84c80(rcx, zx.q(rbx_2) << 2, 0)
+    else
+        if (rbx_2 != 0)
+            int64_t rax_1 = sub_140a84c80(rcx, zx.q(rbx_2) << 2, 0)
+            *(rdi + 0x40) = rax_1
+            rcx = rax_1
+        
+        memmove(rcx, rdi, rsi_1.d << 2)
+else if (rcx != 0)
+    memmove(rdi, rcx, rsi_1.d << 2)
+    rcx = *(rdi + 0x40)
+    
+    if (rcx != 0)
+        *(rdi + 0x40) = sub_140a84c80(rcx, 0, 0)
+
+if (rbx_2 == 0)
+    return 
+
+void* rax_2 = *(rdi + 0x40)
+
+if (rax_2 != 0)
+    rdi = rax_2
+
+memset(rdi + (rsi_1 << 2), 0, zx.q(rbx_2 - rsi_1.d) << 2)

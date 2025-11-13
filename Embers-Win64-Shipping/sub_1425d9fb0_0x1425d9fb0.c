@@ -1,0 +1,21 @@
+// 函数: sub_1425d9fb0
+// 地址: 0x1425d9fb0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+int64_t rcx = *(arg2 + 0x20)
+int64_t result = sx.q(*(arg2 + 0x28))
+int64_t rdx_1 = result * 0x1f0 + rcx
+
+if (rcx != rdx_1)
+    result = rcx + 0x14
+    int32_t var_10_1 = 0
+    
+    do
+        *result = 0
+        rcx += 0x1f0
+        *(result - 4) = 0
+        *(result + 8) = 0
+        result += 0x1f0
+    while (rcx != rdx_1)
+
+return result

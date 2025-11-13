@@ -1,0 +1,135 @@
+// 函数: sub_140993b50
+// 地址: 0x140993b50
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*arg1 = 0
+arg1[1] = 0
+int64_t rax = sx.q(arg2[1].d)
+
+if (rax.d == 0)
+    sub_1405947f0(arg1, 6)
+    int32_t rax_1 = arg1[1].d + 6
+    arg1[1].d = rax_1
+    
+    if (rax_1 s> *(arg1 + 0xc))
+        sub_140594770(arg1)
+    
+    int64_t* rcx_1 = *arg1
+    *rcx_1 = 0x740070006d0045
+    rcx_1[1].d = 0x79
+    return arg1
+
+int32_t* rbx_1 = *arg2
+int32_t rax_3 = 0
+void* r14_3 = &rbx_1[rax * 0x18]
+int16_t* var_48
+int64_t var_28
+
+if (rbx_1 != r14_3)
+    do
+        if (arg1[1].d s> 1)
+            sub_140a20ba0(arg1, &data_142d8adc4, 2)
+        
+        int64_t* rax_4 = sub_1409e4810(&rbx_1[4], &var_28)
+        int16_t* const rsi_1
+        
+        if (rax_4[1].d == 0)
+            rsi_1 = &data_142d40450
+        else
+            rsi_1 = *rax_4
+        
+        int64_t var_38
+        int64_t* rax_5 = sub_140b63b70(rbx_1, &var_38)
+        int16_t* const r8_1
+        
+        if (rax_5[1].d == 0)
+            r8_1 = &data_142d40450
+        else
+            r8_1 = *rax_5
+        
+        rbx_1[2]
+        int16_t* const var_58_1 = rsi_1
+        sub_140a2e390(&var_48, u"Name:%s, Index:%lu, Value:%s", r8_1)
+        int64_t rcx_6 = var_38
+        
+        if (rcx_6 != 0)
+            sub_140a74f90(rcx_6)
+        
+        int64_t rcx_7 = var_28
+        
+        if (rcx_7 != 0)
+            sub_140a74f90(rcx_7)
+        
+        int32_t var_40
+        int32_t r8_2 = var_40 - 1
+        
+        if (var_40 == 0)
+            r8_2 = 0
+        
+        sub_140a20ba0(arg1, var_48, r8_2)
+        int16_t* rcx_9 = var_48
+        
+        if (rcx_9 != 0)
+            sub_140a74f90(rcx_9)
+        
+        rbx_1 = &rbx_1[0x18]
+    while (rbx_1 != r14_3)
+    
+    rax_3 = arg1[1].d
+
+var_48 = nullptr
+int32_t rbx_2 = rax_3 - 1
+int32_t var_3c_1 = 0
+
+if (rax_3 == 0)
+    rbx_2 = 0
+
+int32_t rdx_4 = 0
+int16_t* r15_1 = nullptr
+int32_t var_40_1 = 0
+int32_t r14_4 = 0
+
+if (rbx_2 + 2 s> 0)
+    sub_1405947f0(&var_48, rbx_2 + 2)
+    rdx_4 = var_40_1
+    r14_4 = var_3c_1
+    r15_1 = var_48
+
+int32_t rsi_3 = rdx_4 + 2 + rbx_2
+
+if (rsi_3 s> r14_4)
+    sub_140594770(&var_48)
+    r14_4 = var_3c_1
+    r15_1 = var_48
+
+*r15_1 = 0x5b
+int64_t rbx_3 = sx.q(rbx_2)
+memcpy(&r15_1[1], *arg1, rbx_3.d * 2)
+r15_1[rbx_3 + 1] = 0
+var_48 = r15_1
+int32_t rax_8
+rax_8.b = rsi_3 == 0
+int32_t rdx_8 = rsi_3 + 1 + rax_8
+
+if (rdx_8 s> r14_4)
+    sub_1405947f0(&var_48, rdx_8)
+
+sub_140a20ba0(&var_48, &data_142d84a20, 1)
+int16_t* rbx_4 = var_48
+var_48 = nullptr
+int32_t var_40_3
+var_40_3.q = 0
+
+if (arg1 != &var_28)
+    int64_t rcx_15 = *arg1
+    
+    if (rcx_15 != 0)
+        sub_140a74f90(rcx_15)
+    
+    *arg1 = rbx_4
+    arg1[1].d = rsi_3
+    *(arg1 + 0xc) = r14_4
+else if (rbx_4 != 0)
+    sub_140a74f90(rbx_4)
+
+return arg1

@@ -1,0 +1,5 @@
+// 函数: sub_140bd1aa0
+// 地址: 0x140bd1aa0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+jump(*(*data_143e1a820 + 0x40))

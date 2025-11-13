@@ -1,0 +1,69 @@
+// 函数: sub_142c5ce00
+// 地址: 0x142c5ce00
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+arg1[4] = __acrt_iob_func(1)
+arg1[5] = __acrt_iob_func(0)
+FILE* rax_2 = __acrt_iob_func(2)
+arg1[0x3f].w = 0x101
+arg1[0x46].b = 1
+*arg1 = rax_2
+arg1[0x10] = fwrite
+arg1[0x13] = fread
+int128_t zmm0 = *(arg1 + 0x1f0)
+arg1[0x14] = 0
+int128_t zmm1 = *(arg1 + 0x200)
+arg1[0xd] = 0
+*(arg1 + 0x290) = zmm0
+__builtin_memset(&arg1[0x1f], 0, 0x20)
+zmm0 = *(arg1 + 0x210)
+*(arg1 + 0x2a0) = zmm1
+zmm1 = *(arg1 + 0x220)
+*(arg1 + 0x2b0) = zmm0
+arg1[0x28] = -1
+zmm0 = *(arg1 + 0x230)
+arg1[0xe] = -1
+*(arg1 + 0x2c0) = zmm1
+*(arg1 + 0x54) = 0xffffffff
+zmm1 = *(arg1 + 0x240)
+arg1[0x3c].d = 1
+*(arg1 + 0x2d0) = zmm0
+*(arg1 + 0x5ac) = 1
+zmm0 = *(arg1 + 0x250)
+*(arg1 + 0x39c) = 0x101
+*(arg1 + 0x2e0) = zmm1
+*(arg1 + 0x39e) = 0
+zmm1 = *(arg1 + 0x270)
+arg1[0x6d].d = 1
+*(arg1 + 0x2f0) = zmm0
+*(arg1 + 0x33c) = 0x3c
+zmm0 = *(arg1 + 0x260)
+arg1[0x66] = 5
+arg1[3].d = 0
+*(arg1 + 0x300) = zmm0
+arg1[0x67].d = 0
+zmm0 = *(arg1 + 0x280)
+*(arg1 + 0x44) = 1
+*(arg1 + 0x310) = zmm1
+arg1[9].d = 1
+*(arg1 + 0x320) = zmm0
+*(arg1 + 0x4c) = 5
+*(arg1 + 0x387) = 1
+*(arg1 + 0x3b4) = 0xffffffff
+*(arg1 + 0x3bc) = 0x1a4
+arg1[0x78].d = 0x1ed
+*(arg1 + 0x594) = 0xffffffff
+arg1[0xb3].d = 0xf3fffbef
+*(arg1 + 0x5b4) = 0
+arg1[0xb7] = 0
+arg1[0xb8] = 0
+*(arg1 + 0x5dc) = 0
+*(arg1 + 0x5e4) = 0x3c
+arg1[0xbc].d = 0x3c
+arg1[0xbd].b = 0
+*(arg1 + 0x3ae) = 1
+arg1[0xbf].w = 0x101
+*(arg1 + 0x5fc) = 0x3e8
+arg1[0x30].b = 1
+arg1[0x68].d = 0x4000
+return 0

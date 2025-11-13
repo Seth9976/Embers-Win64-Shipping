@@ -1,0 +1,11 @@
+// 函数: sub_1405387e0
+// 地址: 0x1405387e0
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+sub_142421530()
+int64_t var_18 = 0
+sub_1419c2be0(&data_143f5c960, 0, &data_143f5ca58, FCopyTexture2DCS_Float3", 
+    /Engine/Private/UpdateTextureShaders.usf", 0x43343910, 5, 1, sub_1411873b0, sub_142404340, 
+    sub_142417b40, sub_1405ffa70, 0x405948d0, 0x130)
+data_143f5c960 = &data_142d54980
+return atexit(sub_142d10560) __tailcall

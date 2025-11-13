@@ -1,0 +1,30 @@
+// 函数: sub_1421a9730
+// 地址: 0x1421a9730
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*(arg1 + 0x21c) = 0x3f800000
+*(arg1 + 0x210) = 0
+*(arg1 + 0x218) = 0
+*(arg1 + 0x224) = 0
+*(arg1 + 0x22c) = 0x3f800000
+*(arg1 + 0x234) = 0
+*(arg1 + 0x23c) = 0x3f800000
+*(arg1 + 0x244) = 0
+*(arg1 + 0x24c) = 0x3f800000
+*(arg1 + 0x254) = 0
+*(arg1 + 0x25c) = 0x3f800000
+*(arg1 + 0x264) = 0
+*(arg1 + 0x26c) = 0x3f800000
+*(arg1 + 0x274) = 0
+*(arg1 + 0x27c) = 0x3f800000
+*(arg1 + 0x284) = 0
+*(arg1 + 0x28c) = 0x3f800000
+*(arg1 + 0x294) = 0
+*(arg1 + 0x29c) = 0x3f800000
+*(arg1 + 0x2a4) = 0
+*(arg1 + 0x2ac) = 0x3f800000
+*(arg1 + 0x2b4) = 0
+*(arg1 + 0x2bc) = 0x3f800000
+*(arg1 + 0x2c4) = 0
+*(arg1 + 0x2cc) = 0x3f800000
+return arg1

@@ -1,0 +1,116 @@
+// 函数: sub_140dd6180
+// 地址: 0x140dd6180
+// 来自: E:\Embers\Embers\Binaries\Win64\Embers-Win64-Shipping.exe
+
+*arg1 = &data_142d8ad20
+arg1[1] = &data_142d8ad18
+arg1[2].d = 0x42000000
+*(arg1 + 0x14) = 0x42000000
+*(arg1 + 0x1c) = 0
+*(arg1 + 0x24) = 0
+*(arg1 + 0x28) = data_14399f5c0
+arg1[7].b = 0
+__builtin_memset(&arg1[8], 0, 0x20)
+int64_t zmm1 = data_143dbb1f0
+arg1[0xd].d = zmm1.d
+arg1[0xc].d = zmm1.d
+arg1[0xe].b = 0
+int128_t zmm0 = zmm1:4.d
+*(arg1 + 0x6c) = zmm0.d
+*(arg1 + 0x64) = zmm0.d
+*(arg1 + 0x74) = 3
+arg1[0xf] = 0
+arg1[0x10] = 0
+arg1[0x11].b &= 0xfc
+arg1[0x12] = &data_142d8ad18
+arg1[0x13].d = 0x42000000
+*(arg1 + 0x9c) = 0x42000000
+*(arg1 + 0xa4) = 0
+*(arg1 + 0xac) = 0
+*(arg1 + 0xb0) = data_14399f5c0
+arg1[0x18].b = 0
+__builtin_memset(&arg1[0x19], 0, 0x20)
+zmm1 = data_143dbb1f0
+arg1[0x1e].d = zmm1.d
+arg1[0x1d].d = zmm1.d
+arg1[0x1f].b = 0
+zmm0 = zmm1:4.d
+*(arg1 + 0xf4) = zmm0.d
+*(arg1 + 0xec) = zmm0.d
+*(arg1 + 0xfc) = 3
+arg1[0x20] = 0
+arg1[0x21] = 0
+arg1[0x22].b &= 0xfc
+arg1[0x23] = &data_142d8ad18
+arg1[0x24].d = 0x42000000
+*(arg1 + 0x124) = 0x42000000
+*(arg1 + 0x12c) = 0
+*(arg1 + 0x134) = 0
+*(arg1 + 0x138) = data_14399f5c0
+arg1[0x29].b = 0
+__builtin_memset(&arg1[0x2a], 0, 0x20)
+zmm1 = data_143dbb1f0
+arg1[0x2f].d = zmm1.d
+arg1[0x2e].d = zmm1.d
+arg1[0x30].b = 0
+zmm0 = zmm1:4.d
+*(arg1 + 0x17c) = zmm0.d
+*(arg1 + 0x174) = zmm0.d
+*(arg1 + 0x184) = 3
+arg1[0x31] = 0
+arg1[0x32] = 0
+arg1[0x33].b &= 0xfc
+arg1[0x34] = &data_142d8ad18
+arg1[0x35].d = 0x42000000
+*(arg1 + 0x1ac) = 0x42000000
+*(arg1 + 0x1b4) = 0
+*(arg1 + 0x1bc) = 0
+*(arg1 + 0x1c0) = data_14399f5c0
+arg1[0x3a].b = 0
+__builtin_memset(&arg1[0x3b], 0, 0x20)
+zmm1 = data_143dbb1f0
+arg1[0x40].d = zmm1.d
+arg1[0x3f].d = zmm1.d
+arg1[0x41].b = 0
+zmm0 = zmm1:4.d
+*(arg1 + 0x204) = zmm0.d
+*(arg1 + 0x1fc) = zmm0.d
+*(arg1 + 0x20c) = 3
+arg1[0x42] = 0
+arg1[0x43] = 0
+arg1[0x44].b &= 0xfc
+__builtin_memset(&arg1[0x45], 0, 0x30)
+arg1[0x4b].d = 0xffffffff
+__builtin_memset(arg1 + 0x25c, 0, 0x14)
+arg1[0x4e].d = 0xffffffff
+*(arg1 + 0x274) = 0
+void** var_98
+sub_140693270(&arg1[0x34], sub_140ddaa70(&var_98, &data_143dbb1f0))
+var_98 = &data_142d8ad18
+int64_t* var_20
+
+if (var_20 != 0)
+    var_20[1].d -= 1
+    
+    if (var_20[1].d == 1)
+        (**var_20)(var_20)
+        int32_t temp2_1 = *(var_20 + 0xc)
+        *(var_20 + 0xc) -= 1
+        
+        if (temp2_1 == 1)
+            (*(*var_20 + 8))(var_20, 1)
+
+int64_t* var_58
+
+if (var_58 != 0)
+    var_58[1].d -= 1
+    
+    if (var_58[1].d == 1)
+        (**var_58)(var_58)
+        int32_t temp3_1 = *(var_58 + 0xc)
+        *(var_58 + 0xc) -= 1
+        
+        if (temp3_1 == 1)
+            (*(*var_58 + 8))(var_58, 1)
+
+return arg1
